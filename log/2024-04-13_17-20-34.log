@@ -1,0 +1,37 @@
+T5FineTunerWithAL init: use strategyRANDOM
+strategy: MIN
+iter: 0
+annotated_samples_num: 177
+unannotated_samples_num: 3367
+Epoch [1/5], Batch [1/22], Loss: 4.1045
+Epoch [1/5], Batch [2/22], Loss: 3.3430
+Epoch [1/5], Batch [3/22], Loss: 1.8408
+Epoch [1/5], Batch [4/22], Loss: 1.6160
+Epoch [1/5], Batch [5/22], Loss: 1.2476
+Epoch [1/5], Batch [6/22], Loss: 1.1027
+Epoch [1/5], Batch [7/22], Loss: 0.7861
+Epoch [1/5], Batch [8/22], Loss: 0.6191
+Epoch [1/5], Batch [9/22], Loss: 1.0276
+Epoch [1/5], Batch [10/22], Loss: 1.0204
+Epoch [1/5], Batch [11/22], Loss: 0.4463
+Epoch [1/5], Batch [12/22], Loss: 0.6007
+Epoch [1/5], Batch [13/22], Loss: 0.5533
+Epoch [1/5], Batch [14/22], Loss: 0.4587
+Epoch [1/5], Batch [15/22], Loss: 0.4444
+Epoch [1/5], Batch [16/22], Loss: 0.3956
+Epoch [1/5], Batch [17/22], Loss: 0.7663
+Epoch [1/5], Batch [18/22], Loss: 0.4228
+Epoch [1/5], Batch [19/22], Loss: 0.2633
+Epoch [1/5], Batch [20/22], Loss: 0.5157
+Epoch [1/5], Batch [21/22], Loss: 0.5145
+Epoch [1/5], Batch [22/22], Loss: 0.4712
+Epoch [1/5], Average Loss: 1.0255
+-----------------------------------------------------------
+strategy: MIN
+iter: 0
+epoch: 0
+Validation Loss: 0.3995
+F1_overall: 0.4080
+F1_AGENT: 0.5736
+F1_TARGET: 0.2215
+-----------------------------------------------------------

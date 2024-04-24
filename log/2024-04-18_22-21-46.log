@@ -1,0 +1,1351 @@
+strategy: RANDOM
+iter: 0
+annotated_samples_num: 177
+unannotated_samples_num: 3367
+Epoch [1/15], Average Loss: 1.2185
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 0
+Test Loss: 0.4632
+F1_overall: 0.3982
+F1_AGENT: 0.5468
+F1_TARGET: 0.2358
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.2890
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 1
+Test Loss: 0.4229
+F1_overall: 0.4649
+F1_AGENT: 0.5915
+F1_TARGET: 0.3329
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1499
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 2
+Test Loss: 0.3845
+F1_overall: 0.5158
+F1_AGENT: 0.6346
+F1_TARGET: 0.3954
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.1168
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 3
+Test Loss: 0.3777
+F1_overall: 0.5433
+F1_AGENT: 0.6320
+F1_TARGET: 0.4555
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0902
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 4
+Test Loss: 0.3874
+F1_overall: 0.5044
+F1_AGENT: 0.6235
+F1_TARGET: 0.3817
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0615
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 5
+Test Loss: 0.4374
+F1_overall: 0.5018
+F1_AGENT: 0.5701
+F1_TARGET: 0.4481
+-----------------------------------------------------------
+annotated_samples_num: 354
+unannotated_samples_num: 3190
+update datapool!
+annotated_samples_num: 354
+unannotated_samples_num: 3190
+iter: 1
+annotated_samples_num: 354
+unannotated_samples_num: 3190
+Epoch [1/15], Average Loss: 0.7135
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 0
+Test Loss: 0.3400
+F1_overall: 0.5197
+F1_AGENT: 0.6285
+F1_TARGET: 0.4123
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.2256
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 1
+Test Loss: 0.3356
+F1_overall: 0.5776
+F1_AGENT: 0.6944
+F1_TARGET: 0.4532
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1952
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 2
+Test Loss: 0.3549
+F1_overall: 0.5574
+F1_AGENT: 0.6724
+F1_TARGET: 0.4400
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.1150
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 3
+Test Loss: 0.3611
+F1_overall: 0.5742
+F1_AGENT: 0.6911
+F1_TARGET: 0.4619
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0866
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 4
+Test Loss: 0.3916
+F1_overall: 0.5744
+F1_AGENT: 0.6959
+F1_TARGET: 0.4534
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0708
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 5
+Test Loss: 0.3934
+F1_overall: 0.5767
+F1_AGENT: 0.6802
+F1_TARGET: 0.4813
+-----------------------------------------------------------
+annotated_samples_num: 531
+unannotated_samples_num: 3013
+update datapool!
+annotated_samples_num: 531
+unannotated_samples_num: 3013
+iter: 2
+annotated_samples_num: 531
+unannotated_samples_num: 3013
+Epoch [1/15], Average Loss: 0.5688
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 0
+Test Loss: 0.3102
+F1_overall: 0.5660
+F1_AGENT: 0.6985
+F1_TARGET: 0.4147
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.2005
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 1
+Test Loss: 0.3112
+F1_overall: 0.5927
+F1_AGENT: 0.6951
+F1_TARGET: 0.4920
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1271
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 2
+Test Loss: 0.3132
+F1_overall: 0.6017
+F1_AGENT: 0.7091
+F1_TARGET: 0.4985
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.0944
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 3
+Test Loss: 0.3408
+F1_overall: 0.5870
+F1_AGENT: 0.6843
+F1_TARGET: 0.4961
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0794
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 4
+Test Loss: 0.3784
+F1_overall: 0.6040
+F1_AGENT: 0.7130
+F1_TARGET: 0.4978
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0579
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 5
+Test Loss: 0.4303
+F1_overall: 0.5945
+F1_AGENT: 0.7027
+F1_TARGET: 0.4835
+-----------------------------------------------------------
+annotated_samples_num: 708
+unannotated_samples_num: 2836
+update datapool!
+annotated_samples_num: 708
+unannotated_samples_num: 2836
+iter: 3
+annotated_samples_num: 708
+unannotated_samples_num: 2836
+Epoch [1/15], Average Loss: 0.4286
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 0
+Test Loss: 0.3052
+F1_overall: 0.5839
+F1_AGENT: 0.6866
+F1_TARGET: 0.4799
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1963
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 1
+Test Loss: 0.3234
+F1_overall: 0.5942
+F1_AGENT: 0.7033
+F1_TARGET: 0.4875
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1410
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 2
+Test Loss: 0.3190
+F1_overall: 0.5913
+F1_AGENT: 0.6825
+F1_TARGET: 0.5059
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.1020
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 3
+Test Loss: 0.3242
+F1_overall: 0.5936
+F1_AGENT: 0.6949
+F1_TARGET: 0.4989
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0755
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 4
+Test Loss: 0.3759
+F1_overall: 0.6188
+F1_AGENT: 0.7144
+F1_TARGET: 0.5251
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0590
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 5
+Test Loss: 0.3776
+F1_overall: 0.6012
+F1_AGENT: 0.7140
+F1_TARGET: 0.4930
+-----------------------------------------------------------
+annotated_samples_num: 885
+unannotated_samples_num: 2659
+update datapool!
+annotated_samples_num: 885
+unannotated_samples_num: 2659
+iter: 4
+annotated_samples_num: 885
+unannotated_samples_num: 2659
+Epoch [1/15], Average Loss: 0.4270
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 0
+Test Loss: 0.2867
+F1_overall: 0.5759
+F1_AGENT: 0.6679
+F1_TARGET: 0.4794
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1831
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 1
+Test Loss: 0.2987
+F1_overall: 0.6042
+F1_AGENT: 0.7168
+F1_TARGET: 0.4973
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1216
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 2
+Test Loss: 0.3361
+F1_overall: 0.6104
+F1_AGENT: 0.7164
+F1_TARGET: 0.5065
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.0882
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 3
+Test Loss: 0.3330
+F1_overall: 0.6144
+F1_AGENT: 0.7221
+F1_TARGET: 0.5081
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0717
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 4
+Test Loss: 0.3604
+F1_overall: 0.6212
+F1_AGENT: 0.7228
+F1_TARGET: 0.5263
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0695
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 5
+Test Loss: 0.3530
+F1_overall: 0.6251
+F1_AGENT: 0.7395
+F1_TARGET: 0.5157
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0475
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 6
+Test Loss: 0.3863
+F1_overall: 0.6234
+F1_AGENT: 0.7269
+F1_TARGET: 0.5258
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0367
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 7
+Test Loss: 0.4318
+F1_overall: 0.6047
+F1_AGENT: 0.7185
+F1_TARGET: 0.4953
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0382
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 8
+Test Loss: 0.4718
+F1_overall: 0.6264
+F1_AGENT: 0.7383
+F1_TARGET: 0.5175
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0360
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 9
+Test Loss: 0.4581
+F1_overall: 0.6166
+F1_AGENT: 0.7199
+F1_TARGET: 0.5176
+-----------------------------------------------------------
+annotated_samples_num: 1062
+unannotated_samples_num: 2482
+update datapool!
+annotated_samples_num: 1062
+unannotated_samples_num: 2482
+iter: 5
+annotated_samples_num: 1062
+unannotated_samples_num: 2482
+Epoch [1/15], Average Loss: 0.4378
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 0
+Test Loss: 0.3005
+F1_overall: 0.5830
+F1_AGENT: 0.6787
+F1_TARGET: 0.4852
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.2128
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 1
+Test Loss: 0.2927
+F1_overall: 0.5877
+F1_AGENT: 0.7028
+F1_TARGET: 0.4780
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1439
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 2
+Test Loss: 0.3219
+F1_overall: 0.5933
+F1_AGENT: 0.6800
+F1_TARGET: 0.5093
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.1147
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 3
+Test Loss: 0.3368
+F1_overall: 0.6183
+F1_AGENT: 0.7155
+F1_TARGET: 0.5154
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0792
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 4
+Test Loss: 0.3714
+F1_overall: 0.5976
+F1_AGENT: 0.7030
+F1_TARGET: 0.4964
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0634
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 5
+Test Loss: 0.3866
+F1_overall: 0.6180
+F1_AGENT: 0.7260
+F1_TARGET: 0.5096
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0851
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 6
+Test Loss: 0.3932
+F1_overall: 0.6183
+F1_AGENT: 0.7108
+F1_TARGET: 0.5266
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0534
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 7
+Test Loss: 0.4063
+F1_overall: 0.6188
+F1_AGENT: 0.7224
+F1_TARGET: 0.5159
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0403
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 8
+Test Loss: 0.4509
+F1_overall: 0.6388
+F1_AGENT: 0.7412
+F1_TARGET: 0.5371
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0282
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 9
+Test Loss: 0.4809
+F1_overall: 0.6309
+F1_AGENT: 0.7290
+F1_TARGET: 0.5351
+-----------------------------------------------------------
+annotated_samples_num: 1239
+unannotated_samples_num: 2305
+update datapool!
+annotated_samples_num: 1239
+unannotated_samples_num: 2305
+iter: 6
+annotated_samples_num: 1239
+unannotated_samples_num: 2305
+Epoch [1/15], Average Loss: 0.4192
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 0
+Test Loss: 0.2586
+F1_overall: 0.5653
+F1_AGENT: 0.6674
+F1_TARGET: 0.4657
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1990
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 1
+Test Loss: 0.3014
+F1_overall: 0.5954
+F1_AGENT: 0.6994
+F1_TARGET: 0.4943
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1365
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 2
+Test Loss: 0.2799
+F1_overall: 0.6243
+F1_AGENT: 0.7193
+F1_TARGET: 0.5352
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.1062
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 3
+Test Loss: 0.3172
+F1_overall: 0.6034
+F1_AGENT: 0.7132
+F1_TARGET: 0.4929
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0727
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 4
+Test Loss: 0.3417
+F1_overall: 0.6199
+F1_AGENT: 0.7199
+F1_TARGET: 0.5234
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0487
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 5
+Test Loss: 0.3947
+F1_overall: 0.6166
+F1_AGENT: 0.7198
+F1_TARGET: 0.5200
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0383
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 6
+Test Loss: 0.4079
+F1_overall: 0.6123
+F1_AGENT: 0.7363
+F1_TARGET: 0.4963
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0375
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 7
+Test Loss: 0.4335
+F1_overall: 0.6103
+F1_AGENT: 0.7170
+F1_TARGET: 0.5012
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0437
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 8
+Test Loss: 0.4051
+F1_overall: 0.6075
+F1_AGENT: 0.7258
+F1_TARGET: 0.4926
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0350
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 9
+Test Loss: 0.4239
+F1_overall: 0.6198
+F1_AGENT: 0.7190
+F1_TARGET: 0.5251
+-----------------------------------------------------------
+annotated_samples_num: 1416
+unannotated_samples_num: 2128
+update datapool!
+annotated_samples_num: 1416
+unannotated_samples_num: 2128
+iter: 7
+annotated_samples_num: 1416
+unannotated_samples_num: 2128
+Epoch [1/15], Average Loss: 0.3631
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 0
+Test Loss: 0.2671
+F1_overall: 0.5943
+F1_AGENT: 0.7185
+F1_TARGET: 0.4567
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1886
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 1
+Test Loss: 0.2777
+F1_overall: 0.6078
+F1_AGENT: 0.7078
+F1_TARGET: 0.5140
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1247
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 2
+Test Loss: 0.2855
+F1_overall: 0.6312
+F1_AGENT: 0.7372
+F1_TARGET: 0.5254
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.0896
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 3
+Test Loss: 0.3106
+F1_overall: 0.6357
+F1_AGENT: 0.7519
+F1_TARGET: 0.5236
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0680
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 4
+Test Loss: 0.3382
+F1_overall: 0.6100
+F1_AGENT: 0.7039
+F1_TARGET: 0.5207
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0652
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 5
+Test Loss: 0.3538
+F1_overall: 0.6479
+F1_AGENT: 0.7401
+F1_TARGET: 0.5557
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0463
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 6
+Test Loss: 0.3790
+F1_overall: 0.6285
+F1_AGENT: 0.7273
+F1_TARGET: 0.5296
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0375
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 7
+Test Loss: 0.4114
+F1_overall: 0.6334
+F1_AGENT: 0.7318
+F1_TARGET: 0.5344
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0307
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 8
+Test Loss: 0.4418
+F1_overall: 0.6269
+F1_AGENT: 0.7249
+F1_TARGET: 0.5259
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0332
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 9
+Test Loss: 0.4384
+F1_overall: 0.6298
+F1_AGENT: 0.7271
+F1_TARGET: 0.5300
+-----------------------------------------------------------
+annotated_samples_num: 1593
+unannotated_samples_num: 1951
+update datapool!
+annotated_samples_num: 1593
+unannotated_samples_num: 1951
+iter: 8
+annotated_samples_num: 1593
+unannotated_samples_num: 1951
+Epoch [1/15], Average Loss: 0.3679
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 0
+Test Loss: 0.2540
+F1_overall: 0.5948
+F1_AGENT: 0.6961
+F1_TARGET: 0.5029
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1806
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 1
+Test Loss: 0.2668
+F1_overall: 0.6164
+F1_AGENT: 0.7299
+F1_TARGET: 0.5120
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1302
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 2
+Test Loss: 0.2938
+F1_overall: 0.6149
+F1_AGENT: 0.7339
+F1_TARGET: 0.5069
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.0956
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 3
+Test Loss: 0.2934
+F1_overall: 0.6428
+F1_AGENT: 0.7535
+F1_TARGET: 0.5383
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0781
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 4
+Test Loss: 0.3332
+F1_overall: 0.6315
+F1_AGENT: 0.7388
+F1_TARGET: 0.5275
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0608
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 5
+Test Loss: 0.3673
+F1_overall: 0.6396
+F1_AGENT: 0.7435
+F1_TARGET: 0.5403
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0474
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 6
+Test Loss: 0.3712
+F1_overall: 0.6265
+F1_AGENT: 0.7336
+F1_TARGET: 0.5301
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0395
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 7
+Test Loss: 0.4048
+F1_overall: 0.6452
+F1_AGENT: 0.7463
+F1_TARGET: 0.5474
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0414
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 8
+Test Loss: 0.4059
+F1_overall: 0.6293
+F1_AGENT: 0.7211
+F1_TARGET: 0.5389
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0350
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 9
+Test Loss: 0.4138
+F1_overall: 0.6362
+F1_AGENT: 0.7442
+F1_TARGET: 0.5321
+-----------------------------------------------------------
+Epoch [11/15], Average Loss: 0.0276
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 10
+Test Loss: 0.4595
+F1_overall: 0.6455
+F1_AGENT: 0.7452
+F1_TARGET: 0.5500
+-----------------------------------------------------------
+Epoch [12/15], Average Loss: 0.0268
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 11
+Test Loss: 0.4815
+F1_overall: 0.6332
+F1_AGENT: 0.7301
+F1_TARGET: 0.5343
+-----------------------------------------------------------
+Epoch [13/15], Average Loss: 0.0267
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 12
+Test Loss: 0.4893
+F1_overall: 0.6409
+F1_AGENT: 0.7439
+F1_TARGET: 0.5392
+-----------------------------------------------------------
+Epoch [14/15], Average Loss: 0.0213
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 13
+Test Loss: 0.4659
+F1_overall: 0.6361
+F1_AGENT: 0.7375
+F1_TARGET: 0.5385
+-----------------------------------------------------------
+Epoch [15/15], Average Loss: 0.0206
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 14
+Test Loss: 0.4654
+F1_overall: 0.6396
+F1_AGENT: 0.7486
+F1_TARGET: 0.5280
+-----------------------------------------------------------
+annotated_samples_num: 1770
+unannotated_samples_num: 1774
+update datapool!
+annotated_samples_num: 1770
+unannotated_samples_num: 1774
+iter: 9
+annotated_samples_num: 1770
+unannotated_samples_num: 1774
+Epoch [1/15], Average Loss: 0.3329
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 0
+Test Loss: 0.2655
+F1_overall: 0.5917
+F1_AGENT: 0.6935
+F1_TARGET: 0.4952
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1931
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 1
+Test Loss: 0.2721
+F1_overall: 0.6285
+F1_AGENT: 0.7336
+F1_TARGET: 0.5320
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1325
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 2
+Test Loss: 0.2922
+F1_overall: 0.6122
+F1_AGENT: 0.7180
+F1_TARGET: 0.5094
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.1097
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 3
+Test Loss: 0.2960
+F1_overall: 0.6383
+F1_AGENT: 0.7450
+F1_TARGET: 0.5309
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0865
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 4
+Test Loss: 0.3189
+F1_overall: 0.6266
+F1_AGENT: 0.7352
+F1_TARGET: 0.5186
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0496
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 5
+Test Loss: 0.3718
+F1_overall: 0.6309
+F1_AGENT: 0.7422
+F1_TARGET: 0.5299
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0409
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 6
+Test Loss: 0.3852
+F1_overall: 0.6433
+F1_AGENT: 0.7415
+F1_TARGET: 0.5483
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0466
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 7
+Test Loss: 0.3958
+F1_overall: 0.6402
+F1_AGENT: 0.7434
+F1_TARGET: 0.5344
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0485
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 8
+Test Loss: 0.3762
+F1_overall: 0.6490
+F1_AGENT: 0.7439
+F1_TARGET: 0.5569
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0266
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 9
+Test Loss: 0.4261
+F1_overall: 0.6418
+F1_AGENT: 0.7422
+F1_TARGET: 0.5479
+-----------------------------------------------------------
+Epoch [11/15], Average Loss: 0.0213
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 10
+Test Loss: 0.4502
+F1_overall: 0.6361
+F1_AGENT: 0.7365
+F1_TARGET: 0.5379
+-----------------------------------------------------------
+Epoch [12/15], Average Loss: 0.0268
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 11
+Test Loss: 0.4282
+F1_overall: 0.6408
+F1_AGENT: 0.7492
+F1_TARGET: 0.5280
+-----------------------------------------------------------
+Epoch [13/15], Average Loss: 0.0298
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 12
+Test Loss: 0.4623
+F1_overall: 0.6446
+F1_AGENT: 0.7405
+F1_TARGET: 0.5416
+-----------------------------------------------------------
+Epoch [14/15], Average Loss: 0.0240
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 13
+Test Loss: 0.4197
+F1_overall: 0.6473
+F1_AGENT: 0.7426
+F1_TARGET: 0.5552
+-----------------------------------------------------------
+Epoch [15/15], Average Loss: 0.0171
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 14
+Test Loss: 0.4504
+F1_overall: 0.6532
+F1_AGENT: 0.7527
+F1_TARGET: 0.5568
+-----------------------------------------------------------
+annotated_samples_num: 1947
+unannotated_samples_num: 1597
+update datapool!
+annotated_samples_num: 1947
+unannotated_samples_num: 1597
+iter: 10
+annotated_samples_num: 1947
+unannotated_samples_num: 1597
+Epoch [1/15], Average Loss: 0.3439
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 0
+Test Loss: 0.2479
+F1_overall: 0.6030
+F1_AGENT: 0.7112
+F1_TARGET: 0.4991
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1883
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 1
+Test Loss: 0.2877
+F1_overall: 0.6140
+F1_AGENT: 0.7209
+F1_TARGET: 0.5117
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1280
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 2
+Test Loss: 0.2676
+F1_overall: 0.6274
+F1_AGENT: 0.7291
+F1_TARGET: 0.5305
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.1051
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 3
+Test Loss: 0.3030
+F1_overall: 0.6228
+F1_AGENT: 0.7434
+F1_TARGET: 0.5106
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0670
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 4
+Test Loss: 0.3272
+F1_overall: 0.6448
+F1_AGENT: 0.7475
+F1_TARGET: 0.5435
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0484
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 5
+Test Loss: 0.3590
+F1_overall: 0.6367
+F1_AGENT: 0.7398
+F1_TARGET: 0.5455
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0484
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 6
+Test Loss: 0.3909
+F1_overall: 0.6342
+F1_AGENT: 0.7429
+F1_TARGET: 0.5300
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0385
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 7
+Test Loss: 0.4134
+F1_overall: 0.6564
+F1_AGENT: 0.7520
+F1_TARGET: 0.5596
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0334
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 8
+Test Loss: 0.3980
+F1_overall: 0.6323
+F1_AGENT: 0.7500
+F1_TARGET: 0.5169
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0369
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 9
+Test Loss: 0.4179
+F1_overall: 0.6468
+F1_AGENT: 0.7426
+F1_TARGET: 0.5499
+-----------------------------------------------------------
+Epoch [11/15], Average Loss: 0.0378
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 10
+Test Loss: 0.4193
+F1_overall: 0.6180
+F1_AGENT: 0.7408
+F1_TARGET: 0.5009
+-----------------------------------------------------------
+Epoch [12/15], Average Loss: 0.0298
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 11
+Test Loss: 0.4359
+F1_overall: 0.6395
+F1_AGENT: 0.7378
+F1_TARGET: 0.5447
+-----------------------------------------------------------
+Epoch [13/15], Average Loss: 0.0223
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 12
+Test Loss: 0.4427
+F1_overall: 0.6427
+F1_AGENT: 0.7465
+F1_TARGET: 0.5373
+-----------------------------------------------------------
+Epoch [14/15], Average Loss: 0.0275
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 13
+Test Loss: 0.4559
+F1_overall: 0.6327
+F1_AGENT: 0.7453
+F1_TARGET: 0.5278
+-----------------------------------------------------------
+Epoch [15/15], Average Loss: 0.0223
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 14
+Test Loss: 0.4567
+F1_overall: 0.6503
+F1_AGENT: 0.7519
+F1_TARGET: 0.5502
+-----------------------------------------------------------
+annotated_samples_num: 2124
+unannotated_samples_num: 1420
+update datapool!
+annotated_samples_num: 2124
+unannotated_samples_num: 1420
+iter: 11
+annotated_samples_num: 2124
+unannotated_samples_num: 1420
+Epoch [1/15], Average Loss: 0.3268
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 0
+Test Loss: 0.2645
+F1_overall: 0.5601
+F1_AGENT: 0.6490
+F1_TARGET: 0.4934
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1868
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 1
+Test Loss: 0.2722
+F1_overall: 0.6391
+F1_AGENT: 0.7350
+F1_TARGET: 0.5521
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1393
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 2
+Test Loss: 0.2800
+F1_overall: 0.6272
+F1_AGENT: 0.7415
+F1_TARGET: 0.5134
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.0992
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 3
+Test Loss: 0.2907
+F1_overall: 0.6538
+F1_AGENT: 0.7555
+F1_TARGET: 0.5570
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0812
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 4
+Test Loss: 0.3101
+F1_overall: 0.6454
+F1_AGENT: 0.7515
+F1_TARGET: 0.5422
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0681
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 5
+Test Loss: 0.3148
+F1_overall: 0.6310
+F1_AGENT: 0.7251
+F1_TARGET: 0.5427
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0472
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 6
+Test Loss: 0.3348
+F1_overall: 0.6329
+F1_AGENT: 0.7364
+F1_TARGET: 0.5352
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0379
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 7
+Test Loss: 0.3855
+F1_overall: 0.6497
+F1_AGENT: 0.7543
+F1_TARGET: 0.5467
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0257
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 8
+Test Loss: 0.3942
+F1_overall: 0.6474
+F1_AGENT: 0.7548
+F1_TARGET: 0.5456
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0395
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 9
+Test Loss: 0.3965
+F1_overall: 0.5672
+F1_AGENT: 0.6704
+F1_TARGET: 0.4656
+-----------------------------------------------------------
+Epoch [11/15], Average Loss: 0.0681
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 10
+Test Loss: 0.3953
+F1_overall: 0.6381
+F1_AGENT: 0.7332
+F1_TARGET: 0.5515
+-----------------------------------------------------------
+Epoch [12/15], Average Loss: 0.0298
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 11
+Test Loss: 0.4140
+F1_overall: 0.6440
+F1_AGENT: 0.7459
+F1_TARGET: 0.5447
+-----------------------------------------------------------
+Epoch [13/15], Average Loss: 0.0254
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 12
+Test Loss: 0.4387
+F1_overall: 0.6551
+F1_AGENT: 0.7589
+F1_TARGET: 0.5551
+-----------------------------------------------------------
+Epoch [14/15], Average Loss: 0.0197
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 13
+Test Loss: 0.4612
+F1_overall: 0.6491
+F1_AGENT: 0.7533
+F1_TARGET: 0.5450
+-----------------------------------------------------------
+Epoch [15/15], Average Loss: 0.0163
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 14
+Test Loss: 0.4732
+F1_overall: 0.6407
+F1_AGENT: 0.7413
+F1_TARGET: 0.5419
+-----------------------------------------------------------
+annotated_samples_num: 2301
+unannotated_samples_num: 1243
+update datapool!
+annotated_samples_num: 2301
+unannotated_samples_num: 1243
+strategy: BEAM
+iter: 0
+annotated_samples_num: 177
+unannotated_samples_num: 3367
+Epoch [1/15], Average Loss: 1.0770
+-----------------------------------------------------------
+strategy: BEAM
+iter: 0
+epoch: 0
+Test Loss: 0.4090
+F1_overall: 0.4443
+F1_AGENT: 0.5764
+F1_TARGET: 0.3048
+-----------------------------------------------------------

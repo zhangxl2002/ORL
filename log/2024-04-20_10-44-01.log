@@ -1,0 +1,91 @@
+strategy: BEAM
+iter: 0
+annotated_samples_num: 177
+unannotated_samples_num: 3367
+annotated_samples_num: 345
+unannotated_samples_num: 3199
+update datapool!
+annotated_samples_num: 345
+unannotated_samples_num: 3199
+iter: 1
+annotated_samples_num: 345
+unannotated_samples_num: 3199
+annotated_samples_num: 504
+unannotated_samples_num: 3040
+update datapool!
+annotated_samples_num: 504
+unannotated_samples_num: 3040
+iter: 2
+annotated_samples_num: 504
+unannotated_samples_num: 3040
+Epoch [1/15], Average Loss: 0.6417
+-----------------------------------------------------------
+strategy: BEAM
+iter: 2
+epoch: 0
+Test Loss: 0.3046
+F1_overall: 0.5725
+F1_AGENT: 0.6843
+F1_TARGET: 0.4611
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.2373
+-----------------------------------------------------------
+strategy: BEAM
+iter: 2
+epoch: 1
+Test Loss: 0.3012
+F1_overall: 0.5754
+F1_AGENT: 0.6990
+F1_TARGET: 0.4331
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1576
+-----------------------------------------------------------
+strategy: BEAM
+iter: 2
+epoch: 2
+Test Loss: 0.3303
+F1_overall: 0.5753
+F1_AGENT: 0.6931
+F1_TARGET: 0.4600
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.1213
+-----------------------------------------------------------
+strategy: BEAM
+iter: 2
+epoch: 3
+Test Loss: 0.3587
+F1_overall: 0.5630
+F1_AGENT: 0.6832
+F1_TARGET: 0.4435
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.1105
+-----------------------------------------------------------
+strategy: BEAM
+iter: 2
+epoch: 4
+Test Loss: 0.3848
+F1_overall: 0.5928
+F1_AGENT: 0.6955
+F1_TARGET: 0.4863
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0943
+-----------------------------------------------------------
+strategy: BEAM
+iter: 2
+epoch: 5
+Test Loss: 0.4072
+F1_overall: 0.5695
+F1_AGENT: 0.6817
+F1_TARGET: 0.4604
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0754
+-----------------------------------------------------------
+strategy: BEAM
+iter: 2
+epoch: 6
+Test Loss: 0.3901
+F1_overall: 0.5933
+F1_AGENT: 0.6939
+F1_TARGET: 0.4936
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0492

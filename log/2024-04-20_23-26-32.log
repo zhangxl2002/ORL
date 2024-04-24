@@ -1,0 +1,34 @@
+strategy: RANDOM
+iter: 0
+annotated_samples_num: 177
+unannotated_samples_num: 3367
+Epoch [1/15], Average Loss: 1.2185
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 0
+F1_overall: 0.3982
+F1_AGENT: 0.5468
+F1_TARGET: 0.2358
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.2890
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 1
+F1_overall: 0.4649
+F1_AGENT: 0.5915
+F1_TARGET: 0.3329
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1499
+./saved_models/model_epoch_2
+./saved_models/model_epoch_1_trainloss_0.1061941147287866_valloss_0.23555645180333937
+./saved_models/model_epoch_5
+./saved_models/model_epoch_2_trainloss_0.05876155760408323_valloss_0.23555645180333937
+./saved_models/model_epoch_7
+./saved_models/model_epoch_6
+./saved_models/model_epoch_1
+./saved_models/model_epoch_3
+./saved_models/model_epoch_4
+./saved_models/model_epoch_3_trainloss_0.05953783357124902_valloss_0.23555645180333937
+create: {'aaa'}

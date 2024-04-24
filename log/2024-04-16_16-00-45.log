@@ -1,0 +1,4 @@
+strategy: BEAM
+iter: 0
+annotated_samples_num: 0
+unannotated_samples_num: 3544

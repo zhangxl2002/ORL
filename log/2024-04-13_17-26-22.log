@@ -1,0 +1,5 @@
+T5FineTunerWithAL init: use strategyRANDOM
+strategy: MIN
+iter: 0
+annotated_samples_num: 177
+unannotated_samples_num: 3367

@@ -1,0 +1,1107 @@
+strategy: RANDOM
+iter: 0
+annotated_samples_num: 177
+unannotated_samples_num: 3367
+Epoch [1/20], Average Loss: 1.2185
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 0
+F1_overall: 0.3982
+F1_AGENT: 0.5468
+F1_TARGET: 0.2358
+precision_overall: 0.3895
+precision_AGENT: 0.5025
+precision_TARGET: 0.2480
+recall_overall: 0.4074
+recall_AGENT: 0.5998
+recall_TARGET: 0.2247
+-----------------------------------------------------------
+best_overall_f1 update: 0.39824246055522267
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.39824_iter_0_epoch_0
+delete:./saved_models/strategy_RANDOM/model_F1_0.66360_iter_11_epoch_10
+Epoch [2/20], Average Loss: 0.2890
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 1
+F1_overall: 0.4649
+F1_AGENT: 0.5915
+F1_TARGET: 0.3329
+precision_overall: 0.4371
+precision_AGENT: 0.5346
+precision_TARGET: 0.3267
+recall_overall: 0.4965
+recall_AGENT: 0.6619
+recall_TARGET: 0.3394
+-----------------------------------------------------------
+best_overall_f1 update: 0.464893820547159
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.46489_iter_0_epoch_1
+delete:./saved_models/strategy_RANDOM/model_F1_0.39824_iter_0_epoch_0
+Epoch [3/20], Average Loss: 0.1499
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 2
+F1_overall: 0.5158
+F1_AGENT: 0.6346
+F1_TARGET: 0.3954
+precision_overall: 0.4803
+precision_AGENT: 0.5749
+precision_TARGET: 0.3788
+recall_overall: 0.5570
+recall_AGENT: 0.7081
+recall_TARGET: 0.4135
+-----------------------------------------------------------
+best_overall_f1 update: 0.5157994323557238
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.51580_iter_0_epoch_2
+delete:./saved_models/strategy_RANDOM/model_F1_0.46489_iter_0_epoch_1
+Epoch [4/20], Average Loss: 0.1168
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 3
+F1_overall: 0.5433
+F1_AGENT: 0.6320
+F1_TARGET: 0.4555
+precision_overall: 0.5082
+precision_AGENT: 0.5809
+precision_TARGET: 0.4337
+recall_overall: 0.5836
+recall_AGENT: 0.6930
+recall_TARGET: 0.4797
+-----------------------------------------------------------
+best_overall_f1 update: 0.5432756324900132
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.54328_iter_0_epoch_3
+delete:./saved_models/strategy_RANDOM/model_F1_0.51580_iter_0_epoch_2
+Epoch [5/20], Average Loss: 0.0902
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 4
+F1_overall: 0.5044
+F1_AGENT: 0.6235
+F1_TARGET: 0.3817
+precision_overall: 0.5353
+precision_AGENT: 0.6332
+precision_TARGET: 0.4248
+recall_overall: 0.4769
+recall_AGENT: 0.6141
+recall_TARGET: 0.3466
+-----------------------------------------------------------
+Epoch [6/20], Average Loss: 0.0615
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 5
+F1_overall: 0.5018
+F1_AGENT: 0.5701
+F1_TARGET: 0.4481
+precision_overall: 0.5119
+precision_AGENT: 0.6543
+precision_TARGET: 0.4204
+recall_overall: 0.4920
+recall_AGENT: 0.5050
+recall_TARGET: 0.4797
+-----------------------------------------------------------
+Epoch [7/20], Average Loss: 0.0538
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 6
+F1_overall: 0.5096
+F1_AGENT: 0.6051
+F1_TARGET: 0.4326
+precision_overall: 0.5230
+precision_AGENT: 0.6862
+precision_TARGET: 0.4123
+recall_overall: 0.4969
+recall_AGENT: 0.5411
+recall_TARGET: 0.4550
+-----------------------------------------------------------
+Epoch [8/20], Average Loss: 0.0461
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 7
+F1_overall: 0.5300
+F1_AGENT: 0.6475
+F1_TARGET: 0.4054
+precision_overall: 0.5179
+precision_AGENT: 0.6020
+precision_TARGET: 0.4189
+recall_overall: 0.5427
+recall_AGENT: 0.7005
+recall_TARGET: 0.3928
+-----------------------------------------------------------
+Epoch [9/20], Average Loss: 0.0457
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 8
+F1_overall: 0.4841
+F1_AGENT: 0.5951
+F1_TARGET: 0.3706
+precision_overall: 0.4533
+precision_AGENT: 0.5400
+precision_TARGET: 0.3587
+recall_overall: 0.5194
+recall_AGENT: 0.6628
+recall_TARGET: 0.3833
+-----------------------------------------------------------
+Epoch [10/20], Average Loss: 0.0349
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 9
+F1_overall: 0.5110
+F1_AGENT: 0.6118
+F1_TARGET: 0.4155
+precision_overall: 0.4694
+precision_AGENT: 0.5627
+precision_TARGET: 0.3812
+recall_overall: 0.5607
+recall_AGENT: 0.6703
+recall_TARGET: 0.4566
+-----------------------------------------------------------
+Epoch [11/20], Average Loss: 0.0751
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 10
+F1_overall: 0.4621
+F1_AGENT: 0.5477
+F1_TARGET: 0.3785
+precision_overall: 0.4515
+precision_AGENT: 0.5280
+precision_TARGET: 0.3747
+recall_overall: 0.4732
+recall_AGENT: 0.5688
+recall_TARGET: 0.3825
+-----------------------------------------------------------
+Epoch [12/20], Average Loss: 0.0451
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 11
+F1_overall: 0.5093
+F1_AGENT: 0.5919
+F1_TARGET: 0.4299
+precision_overall: 0.4929
+precision_AGENT: 0.5699
+precision_TARGET: 0.4182
+recall_overall: 0.5268
+recall_AGENT: 0.6158
+recall_TARGET: 0.4422
+-----------------------------------------------------------
+Epoch [13/20], Average Loss: 0.0378
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 12
+F1_overall: 0.5246
+F1_AGENT: 0.6189
+F1_TARGET: 0.4357
+precision_overall: 0.4971
+precision_AGENT: 0.5885
+precision_TARGET: 0.4115
+recall_overall: 0.5554
+recall_AGENT: 0.6527
+recall_TARGET: 0.4629
+-----------------------------------------------------------
+Epoch [14/20], Average Loss: 0.0263
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 13
+F1_overall: 0.5336
+F1_AGENT: 0.6298
+F1_TARGET: 0.4419
+precision_overall: 0.5047
+precision_AGENT: 0.5946
+precision_TARGET: 0.4187
+recall_overall: 0.5660
+recall_AGENT: 0.6695
+recall_TARGET: 0.4677
+-----------------------------------------------------------
+Epoch [15/20], Average Loss: 0.0194
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 14
+F1_overall: 0.5290
+F1_AGENT: 0.6295
+F1_TARGET: 0.4325
+precision_overall: 0.5033
+precision_AGENT: 0.5960
+precision_TARGET: 0.4135
+recall_overall: 0.5574
+recall_AGENT: 0.6669
+recall_TARGET: 0.4534
+-----------------------------------------------------------
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source: us assistant secretary for african affairs walter kansteiner in a statement called zimbabwe's election flawed, saying that the us would consider further sanctions against mugabe and his government. dse:in a statement called
+target: agent: us assistant secretary for african affairs walter kansteiner; target: zimbabwe's election
+source: the cabinet endorsed for diet approval a bill for ratification of the kyoto protocol as well as a revision bill on measures to fight global warming. dse:approval
+target: agent: diet; target: a bill for ratification of the kyoto protocol as well as a revision bill on measures to fight global warming
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: imagine the difference the community could make if each congregation pledged its support of one big sisters match! dse:pledged
+target: agent: each congregation
+source: according to belgian and international criminal law, they could be held responsible, '' verhaeghe said. dse:according to
+target: agent: belgian and international criminal law; target: they
+source: the eu is concerned about the purely voluntary nature of the actions proposed. dse:is concerned
+target: agent: the eu
+source: beijing, december 20 -lrb- xinhua -rrb- -- china believes that the argentine government and people will overcome the current difficulties, revive their economy and maintain their social stability, said chinese foreign ministry spokeswoman zhang qiyue here thursday. dse:believes
+target: agent: china; target: the argentine government and people
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+annotated_samples_num: 354
+unannotated_samples_num: 3190
+update datapool!
+annotated_samples_num: 354
+unannotated_samples_num: 3190
+iter: 1
+annotated_samples_num: 354
+unannotated_samples_num: 3190
+Epoch [1/20], Average Loss: 0.6834
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 0
+F1_overall: 0.5195
+F1_AGENT: 0.6145
+F1_TARGET: 0.4348
+precision_overall: 0.5000
+precision_AGENT: 0.6099
+precision_TARGET: 0.4074
+recall_overall: 0.5407
+recall_AGENT: 0.6191
+recall_TARGET: 0.4661
+-----------------------------------------------------------
+Epoch [2/20], Average Loss: 0.2233
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 1
+F1_overall: 0.5795
+F1_AGENT: 0.6863
+F1_TARGET: 0.4743
+precision_overall: 0.5361
+precision_AGENT: 0.6251
+precision_TARGET: 0.4457
+recall_overall: 0.6306
+recall_AGENT: 0.7609
+recall_TARGET: 0.5068
+-----------------------------------------------------------
+best_overall_f1 update: 0.5795305164319249
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.57953_iter_1_epoch_1
+delete:./saved_models/strategy_RANDOM/model_F1_0.54328_iter_0_epoch_3
+Epoch [3/20], Average Loss: 0.1265
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 2
+F1_overall: 0.5775
+F1_AGENT: 0.7060
+F1_TARGET: 0.4565
+precision_overall: 0.5450
+precision_AGENT: 0.6689
+precision_TARGET: 0.4292
+recall_overall: 0.6142
+recall_AGENT: 0.7475
+recall_TARGET: 0.4876
+-----------------------------------------------------------
+Epoch [4/20], Average Loss: 0.0955
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 3
+F1_overall: 0.5799
+F1_AGENT: 0.6952
+F1_TARGET: 0.4724
+precision_overall: 0.5752
+precision_AGENT: 0.6958
+precision_TARGET: 0.4646
+recall_overall: 0.5848
+recall_AGENT: 0.6946
+recall_TARGET: 0.4805
+-----------------------------------------------------------
+best_overall_f1 update: 0.5799392097264437
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.57994_iter_1_epoch_3
+delete:./saved_models/strategy_RANDOM/model_F1_0.57953_iter_1_epoch_1
+Epoch [5/20], Average Loss: 0.0758
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 4
+F1_overall: 0.6007
+F1_AGENT: 0.7207
+F1_TARGET: 0.4902
+precision_overall: 0.5701
+precision_AGENT: 0.6944
+precision_TARGET: 0.4590
+recall_overall: 0.6347
+recall_AGENT: 0.7492
+recall_TARGET: 0.5259
+-----------------------------------------------------------
+best_overall_f1 update: 0.600657513053568
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.60066_iter_1_epoch_4
+delete:./saved_models/strategy_RANDOM/model_F1_0.57994_iter_1_epoch_3
+Epoch [6/20], Average Loss: 0.0452
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 5
+F1_overall: 0.5766
+F1_AGENT: 0.6956
+F1_TARGET: 0.4696
+precision_overall: 0.5586
+precision_AGENT: 0.6924
+precision_TARGET: 0.4442
+recall_overall: 0.5958
+recall_AGENT: 0.6988
+recall_TARGET: 0.4980
+-----------------------------------------------------------
+Epoch [7/20], Average Loss: 0.0487
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 6
+F1_overall: 0.5387
+F1_AGENT: 0.6319
+F1_TARGET: 0.4548
+precision_overall: 0.5135
+precision_AGENT: 0.6185
+precision_TARGET: 0.4237
+recall_overall: 0.5664
+recall_AGENT: 0.6460
+recall_TARGET: 0.4908
+-----------------------------------------------------------
+Epoch [8/20], Average Loss: 0.0420
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 7
+F1_overall: 0.5889
+F1_AGENT: 0.7092
+F1_TARGET: 0.4751
+precision_overall: 0.5771
+precision_AGENT: 0.6966
+precision_TARGET: 0.4646
+recall_overall: 0.6011
+recall_AGENT: 0.7223
+recall_TARGET: 0.4861
+-----------------------------------------------------------
+Epoch [9/20], Average Loss: 0.0364
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 8
+F1_overall: 0.5836
+F1_AGENT: 0.6889
+F1_TARGET: 0.4804
+precision_overall: 0.5558
+precision_AGENT: 0.6470
+precision_TARGET: 0.4640
+recall_overall: 0.6142
+recall_AGENT: 0.7366
+recall_TARGET: 0.4980
+-----------------------------------------------------------
+Epoch [10/20], Average Loss: 0.0348
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 9
+F1_overall: 0.5632
+F1_AGENT: 0.6659
+F1_TARGET: 0.4551
+precision_overall: 0.5537
+precision_AGENT: 0.6245
+precision_TARGET: 0.4714
+recall_overall: 0.5729
+recall_AGENT: 0.7131
+recall_TARGET: 0.4398
+-----------------------------------------------------------
+Epoch [11/20], Average Loss: 0.0267
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 10
+F1_overall: 0.5759
+F1_AGENT: 0.6806
+F1_TARGET: 0.4790
+precision_overall: 0.5453
+precision_AGENT: 0.6523
+precision_TARGET: 0.4485
+recall_overall: 0.6101
+recall_AGENT: 0.7114
+recall_TARGET: 0.5139
+-----------------------------------------------------------
+Epoch [12/20], Average Loss: 0.0325
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 11
+F1_overall: 0.5776
+F1_AGENT: 0.6907
+F1_TARGET: 0.4658
+precision_overall: 0.5564
+precision_AGENT: 0.6534
+precision_TARGET: 0.4571
+recall_overall: 0.6003
+recall_AGENT: 0.7324
+recall_TARGET: 0.4749
+-----------------------------------------------------------
+Epoch [13/20], Average Loss: 0.0402
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 12
+F1_overall: 0.5861
+F1_AGENT: 0.6997
+F1_TARGET: 0.4731
+precision_overall: 0.5547
+precision_AGENT: 0.6487
+precision_TARGET: 0.4572
+recall_overall: 0.6212
+recall_AGENT: 0.7592
+recall_TARGET: 0.4900
+-----------------------------------------------------------
+Epoch [14/20], Average Loss: 0.0378
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 13
+F1_overall: 0.5867
+F1_AGENT: 0.7052
+F1_TARGET: 0.4791
+precision_overall: 0.5539
+precision_AGENT: 0.6799
+precision_TARGET: 0.4439
+recall_overall: 0.6236
+recall_AGENT: 0.7324
+recall_TARGET: 0.5203
+-----------------------------------------------------------
+Epoch [15/20], Average Loss: 0.0175
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 14
+F1_overall: 0.5899
+F1_AGENT: 0.7020
+F1_TARGET: 0.4756
+precision_overall: 0.5684
+precision_AGENT: 0.6553
+precision_TARGET: 0.4739
+recall_overall: 0.6130
+recall_AGENT: 0.7559
+recall_TARGET: 0.4773
+-----------------------------------------------------------
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source: us assistant secretary for african affairs walter kansteiner in a statement called zimbabwe's election flawed, saying that the us would consider further sanctions against mugabe and his government. dse:in a statement called
+target: agent: us assistant secretary for african affairs walter kansteiner; target: zimbabwe's election
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: imagine the difference the community could make if each congregation pledged its support of one big sisters match! dse:pledged
+target: agent: each congregation
+source: according to belgian and international criminal law, they could be held responsible, '' verhaeghe said. dse:according to
+target: agent: belgian and international criminal law; target: they
+source: the eu is concerned about the purely voluntary nature of the actions proposed. dse:is concerned
+target: agent: the eu
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+source: navigation mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened monday. dse:suggested
+target: agent: navigation mixte's chairman; target: friendly institutions
+source: six months have passed since sept. 11 and the focus of us anger has turned to countries that have been labeled  rogue nations '' and members of an  axis of evil. '' dse:anger
+target: agent: us; target: countries
+annotated_samples_num: 531
+unannotated_samples_num: 3013
+update datapool!
+annotated_samples_num: 531
+unannotated_samples_num: 3013
+iter: 2
+annotated_samples_num: 531
+unannotated_samples_num: 3013
+Epoch [1/20], Average Loss: 0.5473
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 0
+F1_overall: 0.5229
+F1_AGENT: 0.6543
+F1_TARGET: 0.3882
+precision_overall: 0.4996
+precision_AGENT: 0.6046
+precision_TARGET: 0.3844
+recall_overall: 0.5484
+recall_AGENT: 0.7131
+recall_TARGET: 0.3920
+-----------------------------------------------------------
+Epoch [2/20], Average Loss: 0.2096
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 1
+F1_overall: 0.5710
+F1_AGENT: 0.6886
+F1_TARGET: 0.4600
+precision_overall: 0.5642
+precision_AGENT: 0.6826
+precision_TARGET: 0.4532
+recall_overall: 0.5779
+recall_AGENT: 0.6946
+recall_TARGET: 0.4669
+-----------------------------------------------------------
+Epoch [3/20], Average Loss: 0.1336
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 2
+F1_overall: 0.5846
+F1_AGENT: 0.6828
+F1_TARGET: 0.4875
+precision_overall: 0.5490
+precision_AGENT: 0.6296
+precision_TARGET: 0.4662
+recall_overall: 0.6253
+recall_AGENT: 0.7458
+recall_TARGET: 0.5108
+-----------------------------------------------------------
+Epoch [4/20], Average Loss: 0.1096
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 3
+F1_overall: 0.6067
+F1_AGENT: 0.7133
+F1_TARGET: 0.4986
+precision_overall: 0.5821
+precision_AGENT: 0.6650
+precision_TARGET: 0.4930
+recall_overall: 0.6334
+recall_AGENT: 0.7693
+recall_TARGET: 0.5044
+-----------------------------------------------------------
+best_overall_f1 update: 0.6066536203522505
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.60665_iter_2_epoch_3
+delete:./saved_models/strategy_RANDOM/model_F1_0.60066_iter_1_epoch_4
+Epoch [5/20], Average Loss: 0.1085
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 4
+F1_overall: 0.5740
+F1_AGENT: 0.6861
+F1_TARGET: 0.4615
+precision_overall: 0.5540
+precision_AGENT: 0.6459
+precision_TARGET: 0.4570
+recall_overall: 0.5954
+recall_AGENT: 0.7315
+recall_TARGET: 0.4661
+-----------------------------------------------------------
+Epoch [6/20], Average Loss: 0.1011
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 5
+F1_overall: 0.5944
+F1_AGENT: 0.6984
+F1_TARGET: 0.4985
+precision_overall: 0.5738
+precision_AGENT: 0.6835
+precision_TARGET: 0.4751
+recall_overall: 0.6167
+recall_AGENT: 0.7139
+recall_TARGET: 0.5243
+-----------------------------------------------------------
+Epoch [7/20], Average Loss: 0.0633
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 6
+F1_overall: 0.6003
+F1_AGENT: 0.6970
+F1_TARGET: 0.5018
+precision_overall: 0.5819
+precision_AGENT: 0.6542
+precision_TARGET: 0.5032
+recall_overall: 0.6199
+recall_AGENT: 0.7458
+recall_TARGET: 0.5004
+-----------------------------------------------------------
+Epoch [8/20], Average Loss: 0.0456
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 7
+F1_overall: 0.5964
+F1_AGENT: 0.7016
+F1_TARGET: 0.4912
+precision_overall: 0.5721
+precision_AGENT: 0.6579
+precision_TARGET: 0.4823
+recall_overall: 0.6228
+recall_AGENT: 0.7517
+recall_TARGET: 0.5004
+-----------------------------------------------------------
+Epoch [9/20], Average Loss: 0.0395
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 8
+F1_overall: 0.6008
+F1_AGENT: 0.7147
+F1_TARGET: 0.4856
+precision_overall: 0.5921
+precision_AGENT: 0.6840
+precision_TARGET: 0.4934
+recall_overall: 0.6097
+recall_AGENT: 0.7483
+recall_TARGET: 0.4781
+-----------------------------------------------------------
+Epoch [10/20], Average Loss: 0.0351
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 9
+F1_overall: 0.6023
+F1_AGENT: 0.7062
+F1_TARGET: 0.5040
+precision_overall: 0.5754
+precision_AGENT: 0.6761
+precision_TARGET: 0.4805
+recall_overall: 0.6318
+recall_AGENT: 0.7391
+recall_TARGET: 0.5299
+-----------------------------------------------------------
+Epoch [11/20], Average Loss: 0.0283
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 10
+F1_overall: 0.6045
+F1_AGENT: 0.7030
+F1_TARGET: 0.5114
+precision_overall: 0.5859
+precision_AGENT: 0.6825
+precision_TARGET: 0.4948
+recall_overall: 0.6244
+recall_AGENT: 0.7248
+recall_TARGET: 0.5291
+-----------------------------------------------------------
+Epoch [12/20], Average Loss: 0.0527
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 11
+F1_overall: 0.5955
+F1_AGENT: 0.6935
+F1_TARGET: 0.4972
+precision_overall: 0.5827
+precision_AGENT: 0.6613
+precision_TARGET: 0.4996
+recall_overall: 0.6089
+recall_AGENT: 0.7290
+recall_TARGET: 0.4948
+-----------------------------------------------------------
+Epoch [13/20], Average Loss: 0.0340
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 12
+F1_overall: 0.5960
+F1_AGENT: 0.7019
+F1_TARGET: 0.4925
+precision_overall: 0.5657
+precision_AGENT: 0.6576
+precision_TARGET: 0.4735
+recall_overall: 0.6298
+recall_AGENT: 0.7525
+recall_TARGET: 0.5131
+-----------------------------------------------------------
+Epoch [14/20], Average Loss: 0.0211
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 13
+F1_overall: 0.5958
+F1_AGENT: 0.6942
+F1_TARGET: 0.5017
+precision_overall: 0.5775
+precision_AGENT: 0.6703
+precision_TARGET: 0.4880
+recall_overall: 0.6154
+recall_AGENT: 0.7198
+recall_TARGET: 0.5163
+-----------------------------------------------------------
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source: us assistant secretary for african affairs walter kansteiner in a statement called zimbabwe's election flawed, saying that the us would consider further sanctions against mugabe and his government. dse:in a statement called
+target: agent: us assistant secretary for african affairs walter kansteiner; target: zimbabwe's election
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: imagine the difference the community could make if each congregation pledged its support of one big sisters match! dse:pledged
+target: agent: each congregation
+source: according to belgian and international criminal law, they could be held responsible, '' verhaeghe said. dse:according to
+target: agent: belgian and international criminal law; target: they
+source: the eu is concerned about the purely voluntary nature of the actions proposed. dse:is concerned
+target: agent: the eu
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+source: navigation mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened monday. dse:suggested
+target: agent: navigation mixte's chairman; target: friendly institutions
+source: six months have passed since sept. 11 and the focus of us anger has turned to countries that have been labeled  rogue nations '' and members of an  axis of evil. '' dse:anger
+target: agent: us; target: countries
+annotated_samples_num: 708
+unannotated_samples_num: 2836
+update datapool!
+annotated_samples_num: 708
+unannotated_samples_num: 2836
+iter: 3
+annotated_samples_num: 708
+unannotated_samples_num: 2836
+Epoch [1/20], Average Loss: 0.4502
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 0
+F1_overall: 0.5551
+F1_AGENT: 0.6535
+F1_TARGET: 0.4581
+precision_overall: 0.5171
+precision_AGENT: 0.5989
+precision_TARGET: 0.4338
+recall_overall: 0.5991
+recall_AGENT: 0.7190
+recall_TARGET: 0.4853
+-----------------------------------------------------------
+Epoch [2/20], Average Loss: 0.1974
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 1
+F1_overall: 0.5855
+F1_AGENT: 0.7039
+F1_TARGET: 0.4604
+precision_overall: 0.5608
+precision_AGENT: 0.6435
+precision_TARGET: 0.4643
+recall_overall: 0.6126
+recall_AGENT: 0.7768
+recall_TARGET: 0.4566
+-----------------------------------------------------------
+Epoch [3/20], Average Loss: 0.1340
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 2
+F1_overall: 0.5867
+F1_AGENT: 0.6844
+F1_TARGET: 0.5077
+precision_overall: 0.5686
+precision_AGENT: 0.7234
+precision_TARGET: 0.4610
+recall_overall: 0.6060
+recall_AGENT: 0.6493
+recall_TARGET: 0.5649
+-----------------------------------------------------------
+Epoch [4/20], Average Loss: 0.1101
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 3
+F1_overall: 0.6050
+F1_AGENT: 0.7098
+F1_TARGET: 0.4902
+precision_overall: 0.5992
+precision_AGENT: 0.6588
+precision_TARGET: 0.5240
+recall_overall: 0.6110
+recall_AGENT: 0.7693
+recall_TARGET: 0.4606
+-----------------------------------------------------------
+Epoch [5/20], Average Loss: 0.0768
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 4
+F1_overall: 0.6113
+F1_AGENT: 0.7210
+F1_TARGET: 0.5059
+precision_overall: 0.5841
+precision_AGENT: 0.6850
+precision_TARGET: 0.4860
+recall_overall: 0.6412
+recall_AGENT: 0.7609
+recall_TARGET: 0.5275
+-----------------------------------------------------------
+best_overall_f1 update: 0.6113383985973114
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.61134_iter_3_epoch_4
+delete:./saved_models/strategy_RANDOM/model_F1_0.60665_iter_2_epoch_3
+Epoch [6/20], Average Loss: 0.0542
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 5
+F1_overall: 0.6081
+F1_AGENT: 0.7198
+F1_TARGET: 0.4950
+precision_overall: 0.5890
+precision_AGENT: 0.6770
+precision_TARGET: 0.4944
+recall_overall: 0.6285
+recall_AGENT: 0.7685
+recall_TARGET: 0.4956
+-----------------------------------------------------------
+Epoch [7/20], Average Loss: 0.0446
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 6
+F1_overall: 0.6154
+F1_AGENT: 0.7201
+F1_TARGET: 0.5187
+precision_overall: 0.5872
+precision_AGENT: 0.6962
+precision_TARGET: 0.4891
+recall_overall: 0.6465
+recall_AGENT: 0.7458
+recall_TARGET: 0.5522
+-----------------------------------------------------------
+best_overall_f1 update: 0.6154444660571873
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.61544_iter_3_epoch_6
+delete:./saved_models/strategy_RANDOM/model_F1_0.61134_iter_3_epoch_4
+Epoch [8/20], Average Loss: 0.0507
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 7
+F1_overall: 0.5833
+F1_AGENT: 0.6939
+F1_TARGET: 0.4692
+precision_overall: 0.5854
+precision_AGENT: 0.6690
+precision_TARGET: 0.4917
+recall_overall: 0.5811
+recall_AGENT: 0.7206
+recall_TARGET: 0.4486
+-----------------------------------------------------------
+Epoch [9/20], Average Loss: 0.0442
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 8
+F1_overall: 0.6157
+F1_AGENT: 0.7266
+F1_TARGET: 0.5082
+precision_overall: 0.5755
+precision_AGENT: 0.6731
+precision_TARGET: 0.4792
+recall_overall: 0.6620
+recall_AGENT: 0.7894
+recall_TARGET: 0.5410
+-----------------------------------------------------------
+best_overall_f1 update: 0.6157354618015963
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.61574_iter_3_epoch_8
+delete:./saved_models/strategy_RANDOM/model_F1_0.61544_iter_3_epoch_6
+Epoch [10/20], Average Loss: 0.0269
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 9
+F1_overall: 0.6162
+F1_AGENT: 0.7279
+F1_TARGET: 0.5080
+precision_overall: 0.5824
+precision_AGENT: 0.6816
+precision_TARGET: 0.4845
+recall_overall: 0.6543
+recall_AGENT: 0.7810
+recall_TARGET: 0.5339
+-----------------------------------------------------------
+best_overall_f1 update: 0.6162432640492688
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.61624_iter_3_epoch_9
+delete:./saved_models/strategy_RANDOM/model_F1_0.61574_iter_3_epoch_8
+Epoch [11/20], Average Loss: 0.0273
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 10
+F1_overall: 0.6159
+F1_AGENT: 0.7247
+F1_TARGET: 0.5075
+precision_overall: 0.5956
+precision_AGENT: 0.6856
+precision_TARGET: 0.5019
+recall_overall: 0.6375
+recall_AGENT: 0.7685
+recall_TARGET: 0.5131
+-----------------------------------------------------------
+Epoch [12/20], Average Loss: 0.0332
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 11
+F1_overall: 0.6078
+F1_AGENT: 0.7114
+F1_TARGET: 0.5054
+precision_overall: 0.5818
+precision_AGENT: 0.6686
+precision_TARGET: 0.4928
+recall_overall: 0.6363
+recall_AGENT: 0.7601
+recall_TARGET: 0.5187
+-----------------------------------------------------------
+Epoch [13/20], Average Loss: 0.0275
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 12
+F1_overall: 0.6163
+F1_AGENT: 0.7168
+F1_TARGET: 0.5181
+precision_overall: 0.5998
+precision_AGENT: 0.6877
+precision_TARGET: 0.5112
+recall_overall: 0.6338
+recall_AGENT: 0.7483
+recall_TARGET: 0.5251
+-----------------------------------------------------------
+best_overall_f1 update: 0.6163322074309556
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.61633_iter_3_epoch_12
+delete:./saved_models/strategy_RANDOM/model_F1_0.61624_iter_3_epoch_9
+Epoch [14/20], Average Loss: 0.0158
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 13
+F1_overall: 0.6138
+F1_AGENT: 0.7273
+F1_TARGET: 0.5098
+precision_overall: 0.5896
+precision_AGENT: 0.7113
+precision_TARGET: 0.4819
+recall_overall: 0.6400
+recall_AGENT: 0.7441
+recall_TARGET: 0.5410
+-----------------------------------------------------------
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: imagine the difference the community could make if each congregation pledged its support of one big sisters match! dse:pledged
+target: agent: each congregation
+source: according to belgian and international criminal law, they could be held responsible, '' verhaeghe said. dse:according to
+target: agent: belgian and international criminal law; target: they
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+source: navigation mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened monday. dse:suggested
+target: agent: navigation mixte's chairman; target: friendly institutions
+source: six months have passed since sept. 11 and the focus of us anger has turned to countries that have been labeled  rogue nations '' and members of an  axis of evil. '' dse:anger
+target: agent: us; target: countries
+source:  we need tsvangirai to tell mugabe he can not steal this election, '' said noel gukuta, a youthful mdc voter. dse:to tell
+target: agent: tsvangirai; target: he
+source: he then clarified a posture wherein japan would cooperate with the united states as much as possible. dse:clarified
+target: agent: he; target: japan would cooperate with the united states
+annotated_samples_num: 885
+unannotated_samples_num: 2659
+update datapool!
+annotated_samples_num: 885
+unannotated_samples_num: 2659
+iter: 4
+annotated_samples_num: 885
+unannotated_samples_num: 2659
+Epoch [1/20], Average Loss: 0.4540
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 0
+F1_overall: 0.5386
+F1_AGENT: 0.6411
+F1_TARGET: 0.4390
+precision_overall: 0.5056
+precision_AGENT: 0.5958
+precision_TARGET: 0.4161
+recall_overall: 0.5762
+recall_AGENT: 0.6938
+recall_TARGET: 0.4645
+-----------------------------------------------------------
+Epoch [2/20], Average Loss: 0.1839
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 1
+F1_overall: 0.5917
+F1_AGENT: 0.7008
+F1_TARGET: 0.4740
+precision_overall: 0.5663
+precision_AGENT: 0.6349
+precision_TARGET: 0.4830
+recall_overall: 0.6195
+recall_AGENT: 0.7819
+recall_TARGET: 0.4653
+-----------------------------------------------------------
+Epoch [3/20], Average Loss: 0.1322
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 2
+F1_overall: 0.6216
+F1_AGENT: 0.7217
+F1_TARGET: 0.5249
+precision_overall: 0.5795
+precision_AGENT: 0.6683
+precision_TARGET: 0.4927
+recall_overall: 0.6702
+recall_AGENT: 0.7844
+recall_TARGET: 0.5618
+-----------------------------------------------------------
+best_overall_f1 update: 0.6215652833049081
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.62157_iter_4_epoch_2
+delete:./saved_models/strategy_RANDOM/model_F1_0.61633_iter_3_epoch_12
+Epoch [4/20], Average Loss: 0.0929
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 3
+F1_overall: 0.5991
+F1_AGENT: 0.7048
+F1_TARGET: 0.4989
+precision_overall: 0.5679
+precision_AGENT: 0.6687
+precision_TARGET: 0.4726
+recall_overall: 0.6338
+recall_AGENT: 0.7450
+recall_TARGET: 0.5283
+-----------------------------------------------------------
+Epoch [5/20], Average Loss: 0.0640
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 4
+F1_overall: 0.6128
+F1_AGENT: 0.7206
+F1_TARGET: 0.5107
+precision_overall: 0.5989
+precision_AGENT: 0.7052
+precision_TARGET: 0.4985
+recall_overall: 0.6273
+recall_AGENT: 0.7366
+recall_TARGET: 0.5235
+-----------------------------------------------------------

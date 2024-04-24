@@ -1,0 +1,1632 @@
+strategy: RANDOM
+iter: 0
+annotated_samples_num: 177
+unannotated_samples_num: 3367
+Epoch [1/15], Average Loss: 1.2185
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 0
+F1_overall: 0.3982
+F1_AGENT: 0.5468
+F1_TARGET: 0.2358
+-----------------------------------------------------------
+best_overall_f1 update: 0.39824246055522267
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.39824_iter_0_epoch_0
+Epoch [2/15], Average Loss: 0.2890
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 1
+F1_overall: 0.4649
+F1_AGENT: 0.5915
+F1_TARGET: 0.3329
+-----------------------------------------------------------
+best_overall_f1 update: 0.464893820547159
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.46489_iter_0_epoch_1
+delete:./saved_models/strategy_RANDOM/model_F1_0.39824_iter_0_epoch_0
+Epoch [3/15], Average Loss: 0.1499
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 2
+F1_overall: 0.5158
+F1_AGENT: 0.6346
+F1_TARGET: 0.3954
+-----------------------------------------------------------
+best_overall_f1 update: 0.5157994323557238
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.51580_iter_0_epoch_2
+delete:./saved_models/strategy_RANDOM/model_F1_0.46489_iter_0_epoch_1
+Epoch [4/15], Average Loss: 0.1168
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 3
+F1_overall: 0.5433
+F1_AGENT: 0.6320
+F1_TARGET: 0.4555
+-----------------------------------------------------------
+best_overall_f1 update: 0.5432756324900132
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.54328_iter_0_epoch_3
+delete:./saved_models/strategy_RANDOM/model_F1_0.51580_iter_0_epoch_2
+Epoch [5/15], Average Loss: 0.0902
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 4
+F1_overall: 0.5044
+F1_AGENT: 0.6235
+F1_TARGET: 0.3817
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0615
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 0
+epoch: 5
+F1_overall: 0.5018
+F1_AGENT: 0.5701
+F1_TARGET: 0.4481
+-----------------------------------------------------------
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source: us assistant secretary for african affairs walter kansteiner in a statement called zimbabwe's election flawed, saying that the us would consider further sanctions against mugabe and his government. dse:in a statement called
+target: agent: us assistant secretary for african affairs walter kansteiner; target: zimbabwe's election
+source: the cabinet endorsed for diet approval a bill for ratification of the kyoto protocol as well as a revision bill on measures to fight global warming. dse:approval
+target: agent: diet; target: a bill for ratification of the kyoto protocol as well as a revision bill on measures to fight global warming
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: imagine the difference the community could make if each congregation pledged its support of one big sisters match! dse:pledged
+target: agent: each congregation
+source: according to belgian and international criminal law, they could be held responsible, '' verhaeghe said. dse:according to
+target: agent: belgian and international criminal law; target: they
+source: the eu is concerned about the purely voluntary nature of the actions proposed. dse:is concerned
+target: agent: the eu
+source: beijing, december 20 -lrb- xinhua -rrb- -- china believes that the argentine government and people will overcome the current difficulties, revive their economy and maintain their social stability, said chinese foreign ministry spokeswoman zhang qiyue here thursday. dse:believes
+target: agent: china; target: the argentine government and people
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+annotated_samples_num: 354
+unannotated_samples_num: 3190
+update datapool!
+annotated_samples_num: 354
+unannotated_samples_num: 3190
+iter: 1
+annotated_samples_num: 354
+unannotated_samples_num: 3190
+Epoch [1/15], Average Loss: 0.6218
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 0
+F1_overall: 0.5430
+F1_AGENT: 0.6789
+F1_TARGET: 0.4179
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.2249
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 1
+F1_overall: 0.5621
+F1_AGENT: 0.6751
+F1_TARGET: 0.4544
+-----------------------------------------------------------
+best_overall_f1 update: 0.5620536575950589
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.56205_iter_1_epoch_1
+delete:./saved_models/strategy_RANDOM/model_F1_0.54328_iter_0_epoch_3
+Epoch [3/15], Average Loss: 0.1339
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 2
+F1_overall: 0.5478
+F1_AGENT: 0.6513
+F1_TARGET: 0.4583
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.0998
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 3
+F1_overall: 0.5723
+F1_AGENT: 0.6955
+F1_TARGET: 0.4499
+-----------------------------------------------------------
+best_overall_f1 update: 0.5722610722610724
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.57226_iter_1_epoch_3
+delete:./saved_models/strategy_RANDOM/model_F1_0.56205_iter_1_epoch_1
+Epoch [5/15], Average Loss: 0.0699
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 4
+F1_overall: 0.5747
+F1_AGENT: 0.6837
+F1_TARGET: 0.4679
+-----------------------------------------------------------
+best_overall_f1 update: 0.5747214752208989
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.57472_iter_1_epoch_4
+delete:./saved_models/strategy_RANDOM/model_F1_0.57226_iter_1_epoch_3
+Epoch [6/15], Average Loss: 0.0563
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 5
+F1_overall: 0.5835
+F1_AGENT: 0.7084
+F1_TARGET: 0.4666
+-----------------------------------------------------------
+best_overall_f1 update: 0.5834677419354838
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.58347_iter_1_epoch_5
+delete:./saved_models/strategy_RANDOM/model_F1_0.57472_iter_1_epoch_4
+Epoch [7/15], Average Loss: 0.0344
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 1
+epoch: 6
+F1_overall: 0.6026
+F1_AGENT: 0.7283
+F1_TARGET: 0.4817
+-----------------------------------------------------------
+best_overall_f1 update: 0.6025900445163902
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.60259_iter_1_epoch_6
+delete:./saved_models/strategy_RANDOM/model_F1_0.58347_iter_1_epoch_5
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source: us assistant secretary for african affairs walter kansteiner in a statement called zimbabwe's election flawed, saying that the us would consider further sanctions against mugabe and his government. dse:in a statement called
+target: agent: us assistant secretary for african affairs walter kansteiner; target: zimbabwe's election
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: imagine the difference the community could make if each congregation pledged its support of one big sisters match! dse:pledged
+target: agent: each congregation
+source: according to belgian and international criminal law, they could be held responsible, '' verhaeghe said. dse:according to
+target: agent: belgian and international criminal law; target: they
+source: the eu is concerned about the purely voluntary nature of the actions proposed. dse:is concerned
+target: agent: the eu
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+source: navigation mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened monday. dse:suggested
+target: agent: navigation mixte's chairman; target: friendly institutions
+source: six months have passed since sept. 11 and the focus of us anger has turned to countries that have been labeled  rogue nations '' and members of an  axis of evil. '' dse:anger
+target: agent: us; target: countries
+annotated_samples_num: 531
+unannotated_samples_num: 3013
+update datapool!
+annotated_samples_num: 531
+unannotated_samples_num: 3013
+iter: 2
+annotated_samples_num: 531
+unannotated_samples_num: 3013
+Epoch [1/15], Average Loss: 0.5724
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 0
+F1_overall: 0.5697
+F1_AGENT: 0.6783
+F1_TARGET: 0.4669
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1947
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 1
+F1_overall: 0.5812
+F1_AGENT: 0.6897
+F1_TARGET: 0.4659
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1348
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 2
+F1_overall: 0.6006
+F1_AGENT: 0.7124
+F1_TARGET: 0.4934
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.0985
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 3
+F1_overall: 0.6091
+F1_AGENT: 0.7212
+F1_TARGET: 0.4868
+-----------------------------------------------------------
+best_overall_f1 update: 0.6090963734722501
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.60910_iter_2_epoch_3
+delete:./saved_models/strategy_RANDOM/model_F1_0.60259_iter_1_epoch_6
+Epoch [5/15], Average Loss: 0.0794
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 4
+F1_overall: 0.5950
+F1_AGENT: 0.7055
+F1_TARGET: 0.4755
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0584
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 5
+F1_overall: 0.5965
+F1_AGENT: 0.7056
+F1_TARGET: 0.4783
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0461
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 6
+F1_overall: 0.6021
+F1_AGENT: 0.7087
+F1_TARGET: 0.5046
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0413
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 2
+epoch: 7
+F1_overall: 0.5915
+F1_AGENT: 0.6990
+F1_TARGET: 0.4850
+-----------------------------------------------------------
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source: us assistant secretary for african affairs walter kansteiner in a statement called zimbabwe's election flawed, saying that the us would consider further sanctions against mugabe and his government. dse:in a statement called
+target: agent: us assistant secretary for african affairs walter kansteiner; target: zimbabwe's election
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: imagine the difference the community could make if each congregation pledged its support of one big sisters match! dse:pledged
+target: agent: each congregation
+source: according to belgian and international criminal law, they could be held responsible, '' verhaeghe said. dse:according to
+target: agent: belgian and international criminal law; target: they
+source: the eu is concerned about the purely voluntary nature of the actions proposed. dse:is concerned
+target: agent: the eu
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+source: navigation mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened monday. dse:suggested
+target: agent: navigation mixte's chairman; target: friendly institutions
+source: six months have passed since sept. 11 and the focus of us anger has turned to countries that have been labeled  rogue nations '' and members of an  axis of evil. '' dse:anger
+target: agent: us; target: countries
+annotated_samples_num: 708
+unannotated_samples_num: 2836
+update datapool!
+annotated_samples_num: 708
+unannotated_samples_num: 2836
+iter: 3
+annotated_samples_num: 708
+unannotated_samples_num: 2836
+Epoch [1/15], Average Loss: 0.5486
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 0
+F1_overall: 0.5618
+F1_AGENT: 0.6863
+F1_TARGET: 0.4469
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.2075
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 1
+F1_overall: 0.5984
+F1_AGENT: 0.6991
+F1_TARGET: 0.5026
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1396
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 2
+F1_overall: 0.6111
+F1_AGENT: 0.7278
+F1_TARGET: 0.4941
+-----------------------------------------------------------
+best_overall_f1 update: 0.6110894181960171
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.61109_iter_3_epoch_2
+delete:./saved_models/strategy_RANDOM/model_F1_0.60910_iter_2_epoch_3
+Epoch [4/15], Average Loss: 0.0930
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 3
+F1_overall: 0.6079
+F1_AGENT: 0.7242
+F1_TARGET: 0.4955
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0747
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 4
+F1_overall: 0.6042
+F1_AGENT: 0.7116
+F1_TARGET: 0.4998
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0694
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 5
+F1_overall: 0.6118
+F1_AGENT: 0.7256
+F1_TARGET: 0.4958
+-----------------------------------------------------------
+best_overall_f1 update: 0.6117693522906793
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.61177_iter_3_epoch_5
+delete:./saved_models/strategy_RANDOM/model_F1_0.61109_iter_3_epoch_2
+Epoch [7/15], Average Loss: 0.0516
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 6
+F1_overall: 0.5990
+F1_AGENT: 0.7130
+F1_TARGET: 0.4886
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0489
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 7
+F1_overall: 0.5952
+F1_AGENT: 0.6997
+F1_TARGET: 0.4864
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0428
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 3
+epoch: 8
+F1_overall: 0.6007
+F1_AGENT: 0.7090
+F1_TARGET: 0.4898
+-----------------------------------------------------------
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: imagine the difference the community could make if each congregation pledged its support of one big sisters match! dse:pledged
+target: agent: each congregation
+source: according to belgian and international criminal law, they could be held responsible, '' verhaeghe said. dse:according to
+target: agent: belgian and international criminal law; target: they
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+source: navigation mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened monday. dse:suggested
+target: agent: navigation mixte's chairman; target: friendly institutions
+source: six months have passed since sept. 11 and the focus of us anger has turned to countries that have been labeled  rogue nations '' and members of an  axis of evil. '' dse:anger
+target: agent: us; target: countries
+source:  we need tsvangirai to tell mugabe he can not steal this election, '' said noel gukuta, a youthful mdc voter. dse:to tell
+target: agent: tsvangirai; target: he
+source: he then clarified a posture wherein japan would cooperate with the united states as much as possible. dse:clarified
+target: agent: he; target: japan would cooperate with the united states
+annotated_samples_num: 885
+unannotated_samples_num: 2659
+update datapool!
+annotated_samples_num: 885
+unannotated_samples_num: 2659
+iter: 4
+annotated_samples_num: 885
+unannotated_samples_num: 2659
+Epoch [1/15], Average Loss: 0.4768
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 0
+F1_overall: 0.5806
+F1_AGENT: 0.6838
+F1_TARGET: 0.4892
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.2039
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 1
+F1_overall: 0.6085
+F1_AGENT: 0.7067
+F1_TARGET: 0.5114
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1351
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 2
+F1_overall: 0.6056
+F1_AGENT: 0.7073
+F1_TARGET: 0.5115
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.1010
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 3
+F1_overall: 0.6136
+F1_AGENT: 0.7033
+F1_TARGET: 0.5229
+-----------------------------------------------------------
+best_overall_f1 update: 0.6136319752848041
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.61363_iter_4_epoch_3
+delete:./saved_models/strategy_RANDOM/model_F1_0.61177_iter_3_epoch_5
+Epoch [5/15], Average Loss: 0.0774
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 4
+F1_overall: 0.6085
+F1_AGENT: 0.7180
+F1_TARGET: 0.5062
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0616
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 5
+F1_overall: 0.6248
+F1_AGENT: 0.7286
+F1_TARGET: 0.5204
+-----------------------------------------------------------
+best_overall_f1 update: 0.6247574699262709
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.62476_iter_4_epoch_5
+delete:./saved_models/strategy_RANDOM/model_F1_0.61363_iter_4_epoch_3
+Epoch [7/15], Average Loss: 0.0446
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 6
+F1_overall: 0.6210
+F1_AGENT: 0.7173
+F1_TARGET: 0.5233
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0410
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 7
+F1_overall: 0.6236
+F1_AGENT: 0.7319
+F1_TARGET: 0.5233
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0317
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 8
+F1_overall: 0.6310
+F1_AGENT: 0.7311
+F1_TARGET: 0.5316
+-----------------------------------------------------------
+best_overall_f1 update: 0.6309690309690309
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.63097_iter_4_epoch_8
+delete:./saved_models/strategy_RANDOM/model_F1_0.62476_iter_4_epoch_5
+Epoch [10/15], Average Loss: 0.0361
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 4
+epoch: 9
+F1_overall: 0.6297
+F1_AGENT: 0.7320
+F1_TARGET: 0.5244
+-----------------------------------------------------------
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: imagine the difference the community could make if each congregation pledged its support of one big sisters match! dse:pledged
+target: agent: each congregation
+source: according to belgian and international criminal law, they could be held responsible, '' verhaeghe said. dse:according to
+target: agent: belgian and international criminal law; target: they
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+source: navigation mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened monday. dse:suggested
+target: agent: navigation mixte's chairman; target: friendly institutions
+source: six months have passed since sept. 11 and the focus of us anger has turned to countries that have been labeled  rogue nations '' and members of an  axis of evil. '' dse:anger
+target: agent: us; target: countries
+source:  we need tsvangirai to tell mugabe he can not steal this election, '' said noel gukuta, a youthful mdc voter. dse:to tell
+target: agent: tsvangirai; target: he
+source: he then clarified a posture wherein japan would cooperate with the united states as much as possible. dse:clarified
+target: agent: he; target: japan would cooperate with the united states
+annotated_samples_num: 1062
+unannotated_samples_num: 2482
+update datapool!
+annotated_samples_num: 1062
+unannotated_samples_num: 2482
+iter: 5
+annotated_samples_num: 1062
+unannotated_samples_num: 2482
+Epoch [1/15], Average Loss: 0.4068
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 0
+F1_overall: 0.5888
+F1_AGENT: 0.7033
+F1_TARGET: 0.4878
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1891
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 1
+F1_overall: 0.6047
+F1_AGENT: 0.7248
+F1_TARGET: 0.4937
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1349
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 2
+F1_overall: 0.6073
+F1_AGENT: 0.7107
+F1_TARGET: 0.5036
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.1013
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 3
+F1_overall: 0.6223
+F1_AGENT: 0.7142
+F1_TARGET: 0.5315
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0781
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 4
+F1_overall: 0.6312
+F1_AGENT: 0.7276
+F1_TARGET: 0.5479
+-----------------------------------------------------------
+best_overall_f1 update: 0.6312056737588652
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.63121_iter_5_epoch_4
+delete:./saved_models/strategy_RANDOM/model_F1_0.63097_iter_4_epoch_8
+Epoch [6/15], Average Loss: 0.0631
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 5
+F1_overall: 0.6283
+F1_AGENT: 0.7278
+F1_TARGET: 0.5250
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0503
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 6
+F1_overall: 0.6347
+F1_AGENT: 0.7330
+F1_TARGET: 0.5380
+-----------------------------------------------------------
+best_overall_f1 update: 0.6346834447502949
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.63468_iter_5_epoch_6
+delete:./saved_models/strategy_RANDOM/model_F1_0.63121_iter_5_epoch_4
+Epoch [8/15], Average Loss: 0.0347
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 7
+F1_overall: 0.6315
+F1_AGENT: 0.7309
+F1_TARGET: 0.5367
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0286
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 8
+F1_overall: 0.6275
+F1_AGENT: 0.7271
+F1_TARGET: 0.5297
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0314
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 9
+F1_overall: 0.6246
+F1_AGENT: 0.7320
+F1_TARGET: 0.5193
+-----------------------------------------------------------
+Epoch [11/15], Average Loss: 0.0232
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 5
+epoch: 10
+F1_overall: 0.6348
+F1_AGENT: 0.7407
+F1_TARGET: 0.5310
+-----------------------------------------------------------
+best_overall_f1 update: 0.6348096348096347
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.63481_iter_5_epoch_10
+delete:./saved_models/strategy_RANDOM/model_F1_0.63468_iter_5_epoch_6
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: imagine the difference the community could make if each congregation pledged its support of one big sisters match! dse:pledged
+target: agent: each congregation
+source: according to belgian and international criminal law, they could be held responsible, '' verhaeghe said. dse:according to
+target: agent: belgian and international criminal law; target: they
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+source: navigation mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened monday. dse:suggested
+target: agent: navigation mixte's chairman; target: friendly institutions
+source: six months have passed since sept. 11 and the focus of us anger has turned to countries that have been labeled  rogue nations '' and members of an  axis of evil. '' dse:anger
+target: agent: us; target: countries
+source:  we need tsvangirai to tell mugabe he can not steal this election, '' said noel gukuta, a youthful mdc voter. dse:to tell
+target: agent: tsvangirai; target: he
+source: he then clarified a posture wherein japan would cooperate with the united states as much as possible. dse:clarified
+target: agent: he; target: japan would cooperate with the united states
+annotated_samples_num: 1239
+unannotated_samples_num: 2305
+update datapool!
+annotated_samples_num: 1239
+unannotated_samples_num: 2305
+iter: 6
+annotated_samples_num: 1239
+unannotated_samples_num: 2305
+Epoch [1/15], Average Loss: 0.4077
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 0
+F1_overall: 0.5872
+F1_AGENT: 0.6855
+F1_TARGET: 0.4912
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1755
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 1
+F1_overall: 0.6020
+F1_AGENT: 0.6898
+F1_TARGET: 0.5112
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1301
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 2
+F1_overall: 0.6133
+F1_AGENT: 0.7071
+F1_TARGET: 0.5324
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.0951
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 3
+F1_overall: 0.6224
+F1_AGENT: 0.7110
+F1_TARGET: 0.5359
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0712
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 4
+F1_overall: 0.6161
+F1_AGENT: 0.7291
+F1_TARGET: 0.5067
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0604
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 5
+F1_overall: 0.6305
+F1_AGENT: 0.7256
+F1_TARGET: 0.5393
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0421
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 6
+F1_overall: 0.6505
+F1_AGENT: 0.7484
+F1_TARGET: 0.5556
+-----------------------------------------------------------
+best_overall_f1 update: 0.6504547251878213
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.65045_iter_6_epoch_6
+delete:./saved_models/strategy_RANDOM/model_F1_0.63481_iter_5_epoch_10
+Epoch [8/15], Average Loss: 0.0352
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 7
+F1_overall: 0.6394
+F1_AGENT: 0.7462
+F1_TARGET: 0.5342
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0345
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 8
+F1_overall: 0.6459
+F1_AGENT: 0.7445
+F1_TARGET: 0.5484
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0311
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 9
+F1_overall: 0.6343
+F1_AGENT: 0.7544
+F1_TARGET: 0.5228
+-----------------------------------------------------------
+Epoch [11/15], Average Loss: 0.0307
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 10
+F1_overall: 0.6260
+F1_AGENT: 0.7354
+F1_TARGET: 0.5109
+-----------------------------------------------------------
+Epoch [12/15], Average Loss: 0.0286
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 6
+epoch: 11
+F1_overall: 0.6311
+F1_AGENT: 0.7328
+F1_TARGET: 0.5349
+-----------------------------------------------------------
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: imagine the difference the community could make if each congregation pledged its support of one big sisters match! dse:pledged
+target: agent: each congregation
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+source: navigation mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened monday. dse:suggested
+target: agent: navigation mixte's chairman; target: friendly institutions
+source: six months have passed since sept. 11 and the focus of us anger has turned to countries that have been labeled  rogue nations '' and members of an  axis of evil. '' dse:anger
+target: agent: us; target: countries
+source:  we need tsvangirai to tell mugabe he can not steal this election, '' said noel gukuta, a youthful mdc voter. dse:to tell
+target: agent: tsvangirai; target: he
+source: he then clarified a posture wherein japan would cooperate with the united states as much as possible. dse:clarified
+target: agent: he; target: japan would cooperate with the united states
+source: under the geneva convention, those holding true pows are bound to release them at the end of hostilities ; but that is the last thing the u.s. wants to do with men who may be al-qaeda operatives. dse:wants
+target: target: under the geneva convention, those holding true pows are bound to release them at the end of hostilities; agent: the u.s.; target: do
+annotated_samples_num: 1416
+unannotated_samples_num: 2128
+update datapool!
+annotated_samples_num: 1416
+unannotated_samples_num: 2128
+iter: 7
+annotated_samples_num: 1416
+unannotated_samples_num: 2128
+Epoch [1/15], Average Loss: 0.3669
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 0
+F1_overall: 0.5988
+F1_AGENT: 0.7016
+F1_TARGET: 0.5081
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1877
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 1
+F1_overall: 0.6106
+F1_AGENT: 0.7198
+F1_TARGET: 0.5044
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1347
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 2
+F1_overall: 0.6336
+F1_AGENT: 0.7384
+F1_TARGET: 0.5304
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.0966
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 3
+F1_overall: 0.6250
+F1_AGENT: 0.7319
+F1_TARGET: 0.5261
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0751
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 4
+F1_overall: 0.6164
+F1_AGENT: 0.7064
+F1_TARGET: 0.5300
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0568
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 5
+F1_overall: 0.6258
+F1_AGENT: 0.7289
+F1_TARGET: 0.5235
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0447
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 6
+F1_overall: 0.6321
+F1_AGENT: 0.7349
+F1_TARGET: 0.5364
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0366
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 7
+F1_overall: 0.6348
+F1_AGENT: 0.7397
+F1_TARGET: 0.5327
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0348
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 8
+F1_overall: 0.6295
+F1_AGENT: 0.7280
+F1_TARGET: 0.5321
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0368
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 9
+F1_overall: 0.6279
+F1_AGENT: 0.7205
+F1_TARGET: 0.5445
+-----------------------------------------------------------
+Epoch [11/15], Average Loss: 0.0282
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 10
+F1_overall: 0.6348
+F1_AGENT: 0.7343
+F1_TARGET: 0.5382
+-----------------------------------------------------------
+Epoch [12/15], Average Loss: 0.0290
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 11
+F1_overall: 0.6299
+F1_AGENT: 0.7373
+F1_TARGET: 0.5263
+-----------------------------------------------------------
+Epoch [13/15], Average Loss: 0.0234
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 7
+epoch: 12
+F1_overall: 0.6466
+F1_AGENT: 0.7419
+F1_TARGET: 0.5514
+-----------------------------------------------------------
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: imagine the difference the community could make if each congregation pledged its support of one big sisters match! dse:pledged
+target: agent: each congregation
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+source: navigation mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened monday. dse:suggested
+target: agent: navigation mixte's chairman; target: friendly institutions
+source: six months have passed since sept. 11 and the focus of us anger has turned to countries that have been labeled  rogue nations '' and members of an  axis of evil. '' dse:anger
+target: agent: us; target: countries
+source:  we need tsvangirai to tell mugabe he can not steal this election, '' said noel gukuta, a youthful mdc voter. dse:to tell
+target: agent: tsvangirai; target: he
+source: he then clarified a posture wherein japan would cooperate with the united states as much as possible. dse:clarified
+target: agent: he; target: japan would cooperate with the united states
+source: under the geneva convention, those holding true pows are bound to release them at the end of hostilities ; but that is the last thing the u.s. wants to do with men who may be al-qaeda operatives. dse:wants
+target: target: under the geneva convention, those holding true pows are bound to release them at the end of hostilities; agent: the u.s.; target: do
+annotated_samples_num: 1593
+unannotated_samples_num: 1951
+update datapool!
+annotated_samples_num: 1593
+unannotated_samples_num: 1951
+iter: 8
+annotated_samples_num: 1593
+unannotated_samples_num: 1951
+Epoch [1/15], Average Loss: 0.3566
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 0
+F1_overall: 0.5435
+F1_AGENT: 0.6228
+F1_TARGET: 0.4772
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1886
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 1
+F1_overall: 0.6342
+F1_AGENT: 0.7302
+F1_TARGET: 0.5398
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1346
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 2
+F1_overall: 0.6142
+F1_AGENT: 0.7119
+F1_TARGET: 0.5257
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.1124
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 3
+F1_overall: 0.5870
+F1_AGENT: 0.6932
+F1_TARGET: 0.4936
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0852
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 4
+F1_overall: 0.6332
+F1_AGENT: 0.7416
+F1_TARGET: 0.5289
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0595
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 5
+F1_overall: 0.6360
+F1_AGENT: 0.7416
+F1_TARGET: 0.5313
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0387
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 6
+F1_overall: 0.6465
+F1_AGENT: 0.7632
+F1_TARGET: 0.5349
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0328
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 7
+F1_overall: 0.6511
+F1_AGENT: 0.7670
+F1_TARGET: 0.5387
+-----------------------------------------------------------
+best_overall_f1 update: 0.6511257222554293
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.65113_iter_8_epoch_7
+delete:./saved_models/strategy_RANDOM/model_F1_0.65045_iter_6_epoch_6
+Epoch [9/15], Average Loss: 0.0333
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 8
+F1_overall: 0.6395
+F1_AGENT: 0.7480
+F1_TARGET: 0.5335
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0438
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 9
+F1_overall: 0.6348
+F1_AGENT: 0.7500
+F1_TARGET: 0.5262
+-----------------------------------------------------------
+Epoch [11/15], Average Loss: 0.0313
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 10
+F1_overall: 0.6396
+F1_AGENT: 0.7477
+F1_TARGET: 0.5344
+-----------------------------------------------------------
+Epoch [12/15], Average Loss: 0.0514
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 11
+F1_overall: 0.6531
+F1_AGENT: 0.7633
+F1_TARGET: 0.5503
+-----------------------------------------------------------
+best_overall_f1 update: 0.6530941342471276
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.65309_iter_8_epoch_11
+delete:./saved_models/strategy_RANDOM/model_F1_0.65113_iter_8_epoch_7
+Epoch [13/15], Average Loss: 0.0274
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 12
+F1_overall: 0.6122
+F1_AGENT: 0.7272
+F1_TARGET: 0.5126
+-----------------------------------------------------------
+Epoch [14/15], Average Loss: 0.0284
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 8
+epoch: 13
+F1_overall: 0.6478
+F1_AGENT: 0.7555
+F1_TARGET: 0.5448
+-----------------------------------------------------------
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: imagine the difference the community could make if each congregation pledged its support of one big sisters match! dse:pledged
+target: agent: each congregation
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+source: navigation mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened monday. dse:suggested
+target: agent: navigation mixte's chairman; target: friendly institutions
+source: six months have passed since sept. 11 and the focus of us anger has turned to countries that have been labeled  rogue nations '' and members of an  axis of evil. '' dse:anger
+target: agent: us; target: countries
+source:  we need tsvangirai to tell mugabe he can not steal this election, '' said noel gukuta, a youthful mdc voter. dse:to tell
+target: agent: tsvangirai; target: he
+source: he then clarified a posture wherein japan would cooperate with the united states as much as possible. dse:clarified
+target: agent: he; target: japan would cooperate with the united states
+source: under the geneva convention, those holding true pows are bound to release them at the end of hostilities ; but that is the last thing the u.s. wants to do with men who may be al-qaeda operatives. dse:wants
+target: target: under the geneva convention, those holding true pows are bound to release them at the end of hostilities; agent: the u.s.; target: do
+annotated_samples_num: 1770
+unannotated_samples_num: 1774
+update datapool!
+annotated_samples_num: 1770
+unannotated_samples_num: 1774
+iter: 9
+annotated_samples_num: 1770
+unannotated_samples_num: 1774
+Epoch [1/15], Average Loss: 0.3319
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 0
+F1_overall: 0.6104
+F1_AGENT: 0.7115
+F1_TARGET: 0.4992
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1793
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 1
+F1_overall: 0.6257
+F1_AGENT: 0.7262
+F1_TARGET: 0.5331
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1305
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 2
+F1_overall: 0.6253
+F1_AGENT: 0.7181
+F1_TARGET: 0.5375
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.0931
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 3
+F1_overall: 0.6438
+F1_AGENT: 0.7471
+F1_TARGET: 0.5420
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0749
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 4
+F1_overall: 0.6304
+F1_AGENT: 0.7351
+F1_TARGET: 0.5366
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0524
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 5
+F1_overall: 0.6498
+F1_AGENT: 0.7589
+F1_TARGET: 0.5423
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0420
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 6
+F1_overall: 0.6328
+F1_AGENT: 0.7455
+F1_TARGET: 0.5214
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0437
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 7
+F1_overall: 0.6361
+F1_AGENT: 0.7362
+F1_TARGET: 0.5419
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0300
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 8
+F1_overall: 0.6376
+F1_AGENT: 0.7410
+F1_TARGET: 0.5406
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0287
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 9
+F1_overall: 0.6568
+F1_AGENT: 0.7571
+F1_TARGET: 0.5565
+-----------------------------------------------------------
+best_overall_f1 update: 0.6567703109327985
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.65677_iter_9_epoch_9
+delete:./saved_models/strategy_RANDOM/model_F1_0.65309_iter_8_epoch_11
+Epoch [11/15], Average Loss: 0.0284
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 10
+F1_overall: 0.6443
+F1_AGENT: 0.7439
+F1_TARGET: 0.5450
+-----------------------------------------------------------
+Epoch [12/15], Average Loss: 0.0233
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 11
+F1_overall: 0.6443
+F1_AGENT: 0.7493
+F1_TARGET: 0.5463
+-----------------------------------------------------------
+Epoch [13/15], Average Loss: 0.0171
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 12
+F1_overall: 0.6201
+F1_AGENT: 0.7263
+F1_TARGET: 0.5197
+-----------------------------------------------------------
+Epoch [14/15], Average Loss: 0.0245
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 13
+F1_overall: 0.6379
+F1_AGENT: 0.7488
+F1_TARGET: 0.5351
+-----------------------------------------------------------
+Epoch [15/15], Average Loss: 0.0235
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 9
+epoch: 14
+F1_overall: 0.6378
+F1_AGENT: 0.7474
+F1_TARGET: 0.5295
+-----------------------------------------------------------
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: imagine the difference the community could make if each congregation pledged its support of one big sisters match! dse:pledged
+target: agent: each congregation
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+source: navigation mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened monday. dse:suggested
+target: agent: navigation mixte's chairman; target: friendly institutions
+source: six months have passed since sept. 11 and the focus of us anger has turned to countries that have been labeled  rogue nations '' and members of an  axis of evil. '' dse:anger
+target: agent: us; target: countries
+source:  we need tsvangirai to tell mugabe he can not steal this election, '' said noel gukuta, a youthful mdc voter. dse:to tell
+target: agent: tsvangirai; target: he
+source: he then clarified a posture wherein japan would cooperate with the united states as much as possible. dse:clarified
+target: agent: he; target: japan would cooperate with the united states
+source: under the geneva convention, those holding true pows are bound to release them at the end of hostilities ; but that is the last thing the u.s. wants to do with men who may be al-qaeda operatives. dse:wants
+target: target: under the geneva convention, those holding true pows are bound to release them at the end of hostilities; agent: the u.s.; target: do
+annotated_samples_num: 1947
+unannotated_samples_num: 1597
+update datapool!
+annotated_samples_num: 1947
+unannotated_samples_num: 1597
+iter: 10
+annotated_samples_num: 1947
+unannotated_samples_num: 1597
+Epoch [1/15], Average Loss: 0.3651
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 0
+F1_overall: 0.6060
+F1_AGENT: 0.7051
+F1_TARGET: 0.5167
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1921
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 1
+F1_overall: 0.6225
+F1_AGENT: 0.7288
+F1_TARGET: 0.5212
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1292
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 2
+F1_overall: 0.6385
+F1_AGENT: 0.7452
+F1_TARGET: 0.5368
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.0964
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 3
+F1_overall: 0.6418
+F1_AGENT: 0.7404
+F1_TARGET: 0.5485
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0765
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 4
+F1_overall: 0.6435
+F1_AGENT: 0.7548
+F1_TARGET: 0.5360
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0533
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 5
+F1_overall: 0.6499
+F1_AGENT: 0.7597
+F1_TARGET: 0.5491
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0448
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 6
+F1_overall: 0.6358
+F1_AGENT: 0.7334
+F1_TARGET: 0.5417
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0412
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 7
+F1_overall: 0.6420
+F1_AGENT: 0.7345
+F1_TARGET: 0.5526
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0371
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 8
+F1_overall: 0.6461
+F1_AGENT: 0.7429
+F1_TARGET: 0.5553
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0437
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 9
+F1_overall: 0.6372
+F1_AGENT: 0.7357
+F1_TARGET: 0.5450
+-----------------------------------------------------------
+Epoch [11/15], Average Loss: 0.0338
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 10
+F1_overall: 0.6384
+F1_AGENT: 0.7415
+F1_TARGET: 0.5391
+-----------------------------------------------------------
+Epoch [12/15], Average Loss: 0.0239
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 11
+F1_overall: 0.6493
+F1_AGENT: 0.7548
+F1_TARGET: 0.5484
+-----------------------------------------------------------
+Epoch [13/15], Average Loss: 0.0251
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 12
+F1_overall: 0.6267
+F1_AGENT: 0.7283
+F1_TARGET: 0.5374
+-----------------------------------------------------------
+Epoch [14/15], Average Loss: 0.0220
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 13
+F1_overall: 0.6489
+F1_AGENT: 0.7564
+F1_TARGET: 0.5493
+-----------------------------------------------------------
+Epoch [15/15], Average Loss: 0.0211
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 10
+epoch: 14
+F1_overall: 0.6500
+F1_AGENT: 0.7513
+F1_TARGET: 0.5548
+-----------------------------------------------------------
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+source: navigation mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened monday. dse:suggested
+target: agent: navigation mixte's chairman; target: friendly institutions
+source: six months have passed since sept. 11 and the focus of us anger has turned to countries that have been labeled  rogue nations '' and members of an  axis of evil. '' dse:anger
+target: agent: us; target: countries
+source:  we need tsvangirai to tell mugabe he can not steal this election, '' said noel gukuta, a youthful mdc voter. dse:to tell
+target: agent: tsvangirai; target: he
+source: he then clarified a posture wherein japan would cooperate with the united states as much as possible. dse:clarified
+target: agent: he; target: japan would cooperate with the united states
+source: under the geneva convention, those holding true pows are bound to release them at the end of hostilities ; but that is the last thing the u.s. wants to do with men who may be al-qaeda operatives. dse:wants
+target: target: under the geneva convention, those holding true pows are bound to release them at the end of hostilities; agent: the u.s.; target: do
+source: ramdas said it was perceived that anuar and mehrun, instrumental behind the scathing kesas report, were dropped for performing their duties without fear or favor. dse:said
+target: agent: ramdas; target: anuar and mehrun
+annotated_samples_num: 2124
+unannotated_samples_num: 1420
+update datapool!
+annotated_samples_num: 2124
+unannotated_samples_num: 1420
+iter: 11
+annotated_samples_num: 2124
+unannotated_samples_num: 1420
+Epoch [1/15], Average Loss: 0.3293
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 0
+F1_overall: 0.5803
+F1_AGENT: 0.6609
+F1_TARGET: 0.4948
+-----------------------------------------------------------
+Epoch [2/15], Average Loss: 0.1969
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 1
+F1_overall: 0.6205
+F1_AGENT: 0.7012
+F1_TARGET: 0.5397
+-----------------------------------------------------------
+Epoch [3/15], Average Loss: 0.1271
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 2
+F1_overall: 0.6218
+F1_AGENT: 0.7183
+F1_TARGET: 0.5350
+-----------------------------------------------------------
+Epoch [4/15], Average Loss: 0.0904
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 3
+F1_overall: 0.6330
+F1_AGENT: 0.7400
+F1_TARGET: 0.5303
+-----------------------------------------------------------
+Epoch [5/15], Average Loss: 0.0741
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 4
+F1_overall: 0.6318
+F1_AGENT: 0.7300
+F1_TARGET: 0.5440
+-----------------------------------------------------------
+Epoch [6/15], Average Loss: 0.0578
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 5
+F1_overall: 0.6483
+F1_AGENT: 0.7545
+F1_TARGET: 0.5408
+-----------------------------------------------------------
+Epoch [7/15], Average Loss: 0.0440
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 6
+F1_overall: 0.6534
+F1_AGENT: 0.7491
+F1_TARGET: 0.5607
+-----------------------------------------------------------
+Epoch [8/15], Average Loss: 0.0394
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 7
+F1_overall: 0.6529
+F1_AGENT: 0.7510
+F1_TARGET: 0.5570
+-----------------------------------------------------------
+Epoch [9/15], Average Loss: 0.0332
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 8
+F1_overall: 0.6312
+F1_AGENT: 0.7321
+F1_TARGET: 0.5364
+-----------------------------------------------------------
+Epoch [10/15], Average Loss: 0.0312
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 9
+F1_overall: 0.6455
+F1_AGENT: 0.7394
+F1_TARGET: 0.5550
+-----------------------------------------------------------
+Epoch [11/15], Average Loss: 0.0294
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 10
+F1_overall: 0.6636
+F1_AGENT: 0.7573
+F1_TARGET: 0.5715
+-----------------------------------------------------------
+best_overall_f1 update: 0.663601838896662
+Model saved at ./saved_models/strategy_RANDOM/model_F1_0.66360_iter_11_epoch_10
+delete:./saved_models/strategy_RANDOM/model_F1_0.65677_iter_9_epoch_9
+Epoch [12/15], Average Loss: 0.0208
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 11
+F1_overall: 0.6502
+F1_AGENT: 0.7467
+F1_TARGET: 0.5587
+-----------------------------------------------------------
+Epoch [13/15], Average Loss: 0.0185
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 12
+F1_overall: 0.6521
+F1_AGENT: 0.7435
+F1_TARGET: 0.5658
+-----------------------------------------------------------
+Epoch [14/15], Average Loss: 0.0173
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 13
+F1_overall: 0.6540
+F1_AGENT: 0.7526
+F1_TARGET: 0.5568
+-----------------------------------------------------------
+Epoch [15/15], Average Loss: 0.0171
+-----------------------------------------------------------
+strategy: RANDOM
+iter: 11
+epoch: 14
+F1_overall: 0.6356
+F1_AGENT: 0.7353
+F1_TARGET: 0.5469
+-----------------------------------------------------------
+--------------------show samples-----------------------
+source:  the election results... do not reflect the true will of the people of zimbabwe and are consequently illegitimate, '' he said. dse:true will of
+target: agent: the people of zimbabwe
+source:  we disapprove of the use of such words in international relations, '' said kong, who also made the same comment when answering related questions earlier. dse:disapprove
+target: agent: we; target: the use of such words in international relations
+source: some diplomats raise questions about her priorities. dse:raise questions
+target: agent: some diplomats; target: her priorities
+source: but the expert urged everyone to despair,  since control of global warming without russia is impossible ; the country is becoming the owner of the controlling block of shares. '' dse:to despair
+target: target: control of global warming without russia is impossible
+source: navigation mixte's chairman had suggested that friendly institutions were likely to buy its stock as soon as trading opened monday. dse:suggested
+target: agent: navigation mixte's chairman; target: friendly institutions
+source: six months have passed since sept. 11 and the focus of us anger has turned to countries that have been labeled  rogue nations '' and members of an  axis of evil. '' dse:anger
+target: agent: us; target: countries
+source:  we need tsvangirai to tell mugabe he can not steal this election, '' said noel gukuta, a youthful mdc voter. dse:to tell
+target: agent: tsvangirai; target: he
+source: he then clarified a posture wherein japan would cooperate with the united states as much as possible. dse:clarified
+target: agent: he; target: japan would cooperate with the united states
+source: under the geneva convention, those holding true pows are bound to release them at the end of hostilities ; but that is the last thing the u.s. wants to do with men who may be al-qaeda operatives. dse:wants
+target: target: under the geneva convention, those holding true pows are bound to release them at the end of hostilities; agent: the u.s.; target: do
+source: ramdas said it was perceived that anuar and mehrun, instrumental behind the scathing kesas report, were dropped for performing their duties without fear or favor. dse:said
+target: agent: ramdas; target: anuar and mehrun
+annotated_samples_num: 2301
+unannotated_samples_num: 1243
+update datapool!
+annotated_samples_num: 2301
+unannotated_samples_num: 1243

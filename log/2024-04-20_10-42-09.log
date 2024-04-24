@@ -1,0 +1,5 @@
+strategy: BEAM
+iter: 0
+annotated_samples_num: 177
+unannotated_samples_num: 3367
+Epoch [1/15], Average Loss: 1.2185

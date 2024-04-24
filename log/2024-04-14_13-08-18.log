@@ -1,0 +1,36 @@
+strategy: MIN
+iter: 0
+annotated_samples_num: 177
+unannotated_samples_num: 3367
+Epoch [1/10], Batch [1/22], Loss: 3.7589
+Epoch [1/10], Batch [2/22], Loss: 2.6604
+Epoch [1/10], Batch [3/22], Loss: 4.1355
+Epoch [1/10], Batch [4/22], Loss: 3.0129
+Epoch [1/10], Batch [5/22], Loss: 1.1656
+Epoch [1/10], Batch [6/22], Loss: 1.4469
+Epoch [1/10], Batch [7/22], Loss: 1.4955
+Epoch [1/10], Batch [8/22], Loss: 1.2089
+Epoch [1/10], Batch [9/22], Loss: 0.8152
+Epoch [1/10], Batch [10/22], Loss: 1.1272
+Epoch [1/10], Batch [11/22], Loss: 0.7465
+Epoch [1/10], Batch [12/22], Loss: 0.7434
+Epoch [1/10], Batch [13/22], Loss: 0.6223
+Epoch [1/10], Batch [14/22], Loss: 0.6056
+Epoch [1/10], Batch [15/22], Loss: 0.7457
+Epoch [1/10], Batch [16/22], Loss: 0.5633
+Epoch [1/10], Batch [17/22], Loss: 0.3219
+Epoch [1/10], Batch [18/22], Loss: 0.3778
+Epoch [1/10], Batch [19/22], Loss: 0.3628
+Epoch [1/10], Batch [20/22], Loss: 0.3418
+Epoch [1/10], Batch [21/22], Loss: 0.2663
+Epoch [1/10], Batch [22/22], Loss: 0.2835
+Epoch [1/10], Average Loss: 1.2185
+-----------------------------------------------------------
+strategy: MIN
+iter: 0
+epoch: 0
+Test Loss: 0.4632
+F1_overall: 0.3920
+F1_AGENT: 0.5512
+F1_TARGET: 0.2058
+-----------------------------------------------------------
