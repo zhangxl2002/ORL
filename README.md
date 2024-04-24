@@ -5,6 +5,13 @@
 
 - conda env  create -n T5 -f T5.yml
 - conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+- pip install ipykernel
+- python -m ipykernel install --name T5
+- pip install nltk
+- pip install pandas
+- pip install transformers
+- pip install datasets
+- pip install matplotlib
 
 ## 项目结构
 - test_AL_copy.ipynb: 训练代码
