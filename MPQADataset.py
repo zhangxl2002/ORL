@@ -19,8 +19,8 @@ class MPQADataset(Dataset):
     source_ids = self.inputs[index]["input_ids"].squeeze()
     target_ids = self.targets[index]["input_ids"].squeeze()
 
-    src_mask    = self.inputs[index]["attention_mask"].squeeze()  # might need to squeeze
-    target_mask = self.targets[index]["attention_mask"].squeeze()  # might need to squeeze
+    src_mask    = self.inputs[index]["attention_mask"].squeeze() 
+    target_mask = self.targets[index]["attention_mask"].squeeze() 
 
     return {"source_ids": source_ids, "source_mask": src_mask, "target_ids": target_ids, "target_mask": target_mask}
 

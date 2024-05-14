@@ -68,11 +68,16 @@ def train():
     tokenizer = AutoTokenizer.from_pretrained("t5-base")
     # 加载模型
     model = T5FineTuner(args)
+
+    current_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    log_file_name = f"{current_time}.log"
+
     max_epochs = 20
     current_strategy = "FULL"
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     train_dataloader = model.train_dataloader()
     test_dataloader = model.test_dataloader()
+    
     print_log = True
     write_log = False
     save_model = False
