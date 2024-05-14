@@ -6,17 +6,20 @@ from transformers import (
     AutoTokenizer,
     get_linear_schedule_with_warmup
 )
+from Datapool import *
+from utils import *
+
 class T5FineTuner():
     def __init__(self, hparam):
         self.hparam = hparam
         # self.model = T5ForConditionalGeneration.from_pretrained(
         #     hparam.model_name_or_path)
-        # self.model = T5ForConditionalGeneration.from_pretrained(
-        #     "/mnt/workspace/ORL/saved_models/strategy_FULL/model_F1_0.66977_epoch_11")
-        # self.model = T5ForConditionalGeneration.from_pretrained(
-        #     "/mnt/workspace/ORL/saved_models/strategy_BEAM/model_F1_0.67540_iter_11_epoch_6")
         self.model = T5ForConditionalGeneration.from_pretrained(
-            "/mnt/workspace/ORL/saved_models/strategy_MARGIN/model_F1_0.67388_iter_11_epoch_8")
+            "/mnt/workspace/ORL/saved_models_copy/strategy_FULL/model_F1_0.66977_epoch_11")
+        # self.model = T5ForConditionalGeneration.from_pretrained(
+        #     "/mnt/workspace/ORL/saved_models_copy/strategy_BEAM/model_F1_0.67540_iter_11_epoch_6")
+        # self.model = T5ForConditionalGeneration.from_pretrained(
+        #     "/mnt/workspace/ORL/saved_models_copy/strategy_MARGIN/model_F1_0.67388_iter_11_epoch_8")
         self.tokenizer = AutoTokenizer.from_pretrained(
             hparam.model_name_or_path
         )
@@ -140,16 +143,6 @@ class T5FineTunerWithAL(T5FineTuner):
     def __init__(self, hparam, strategy_name="RANDOM", warmstart_percentage=0.05):
         super().__init__(hparam)
         self.warmstart_percentage = warmstart_percentage
-        self.strategy = {
-            # "RANDOM": RandomStrategy,
-            # "LC": LeastConfidenceStrategy,
-            # "NLC": NormalizedLeastConfidenceStrategy,
-            # "LTP": LeastTokenProbabilityStrategy,
-            # "MTP": MinimumTokenProbabilityStrategy,
-            # "MTE": MaximumTokenEntropyStrategy,
-            # "LONG": LongStrategy,
-            # "TE": TokenEntropyStrategy,
-        }
         self.strategy_name = strategy_name
         # self.strategy = self.strategy[strategy_name]
         self.datapool = Datapool(warmstart_percentage, super().train_dataloader())

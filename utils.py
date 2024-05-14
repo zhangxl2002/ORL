@@ -2,6 +2,8 @@
 import random
 import numpy as np
 import torch
+from datasets import load_dataset
+from MPQADataset import *
 
 def set_seed(seed):
   random.seed(seed)
@@ -58,3 +60,5 @@ def get_dataset(tokenizer, type_path, args):
     # dataset = load_dataset(args.data_dir)
     dataset = load_dataset("zhangxl2002/mpqa_ORL")
     return MPQADataset(tokenizer=tokenizer, dataset=dataset, type_path=type_path)
+def save_array(name, table):
+    np.save(name, table)

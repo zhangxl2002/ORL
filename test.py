@@ -37,7 +37,7 @@ from utils import *
 from MPQADataset import MPQADataset
 from T5FineTuner import *
 
-def test(args):
+def test():
     args_dict = dict(
         data_dir="zhangxl2002/mpqa_ORL", # path for data files
         output_dir="", # path to save the checkpoints
@@ -62,7 +62,6 @@ def test(args):
     args = argparse.Namespace(**args_dict)
 
     set_seed(42)
-    print(strategy)
     # 加载数据集
     dataset = load_dataset("zhangxl2002/mpqa_ORL")
     tokenizer = AutoTokenizer.from_pretrained("t5-base")
