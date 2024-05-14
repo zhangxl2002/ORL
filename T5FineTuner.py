@@ -20,6 +20,8 @@ class T5FineTuner():
         #     "/mnt/workspace/ORL/saved_models_copy/strategy_BEAM/model_F1_0.67540_iter_11_epoch_6")
         # self.model = T5ForConditionalGeneration.from_pretrained(
         #     "/mnt/workspace/ORL/saved_models_copy/strategy_MARGIN/model_F1_0.67388_iter_11_epoch_8")
+        # self.model = T5ForConditionalGeneration.from_pretrained(
+        #     "/mnt/workspace/ORL/saved_models/strategy_RANDOM/model_F1_0.66129_iter_11_epoch_9")
         self.tokenizer = AutoTokenizer.from_pretrained(
             hparam.model_name_or_path
         )

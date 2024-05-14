@@ -61,7 +61,7 @@ def test():
     )
     args = argparse.Namespace(**args_dict)
 
-    set_seed(42)
+    set_seed(43)
     # 加载数据集
     dataset = load_dataset("zhangxl2002/mpqa_ORL")
     tokenizer = AutoTokenizer.from_pretrained("t5-base")
@@ -108,6 +108,10 @@ def test():
         print(f"True Token Class:  {true_labels[i]}")
         print("=====================================================================\n")
 
+    metric_result = metric.compute(predictions=pred_labels, references=true_labels)
+    print("overall_precision:",metric_result['overall_precision'])
+    print("overall_recall:",metric_result['overall_recall'])
+    print("overall_f1:",metric_result['overall_f1'])
     print(metric.compute(predictions=pred_labels, references=true_labels))
 
 
