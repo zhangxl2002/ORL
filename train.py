@@ -99,7 +99,7 @@ def train():
         num_batches = 0
         model.model.train()
         for i, batch in tqdm(enumerate(train_dataloader)):
-            batch = {key: value.to(device) for key, value in batch.items()}  # 将批次数据移动到GPU上
+            batch = {key: value.to(device) for key, value in batch.items()} 
             loss = model.training_step(batch, i)
             loss.backward()
             total_loss += loss.item()
@@ -248,8 +248,7 @@ def trainWithAL():
     test_dataloader = model.test_dataloader()
     # test_dataloader = model.test_dataloader()
 
-    # strategies = ["RANDOM","BEAM","OTHER"]
-    strategies = ["RANDOM"]
+    strategies = ["BEAM"]
 
     print_log = True
     save_model = False
@@ -298,7 +297,7 @@ def trainWithAL():
                 num_batches = 0
 
                 for i, batch in enumerate(annotated_dataloader):
-                    batch = {key: value.to(device) for key, value in batch.items()}  # 将批次数据移动到GPU上
+                    batch = {key: value.to(device) for key, value in batch.items()} 
                     loss = model.training_step(batch, i)
                     loss.backward()
                     total_loss += loss.item()
@@ -308,7 +307,6 @@ def trainWithAL():
                 if print_log: print(f"Epoch [{epoch + 1}/{max_epochs}], Average Loss: {avg_loss:.4f}")
 
 
-                # 每一个epoch训练完成后，在验证集上计算损失 计算token级别的precision,recall,F1
                 val_loss = 0.0
                 num_val_batches = 0
 
@@ -348,26 +346,15 @@ def trainWithAL():
                 model.model.train()
 
                 metric = load_metric("seqeval")
-                # metric_result = metric.compute(predictions=pred_labels, references=true_labels)
+
                 test_metric_result = metric.compute(predictions=test_pred_labels, references=test_true_labels)
-                # {'AGENT': {'precision': 0.7375415282392026, 'recall': 0.7449664429530202, 'f1': 0.7412353923205344, 'number': 1192}, \
-                # 'TARGET': {'precision': 0.48408710217755446, 'recall': 0.4605577689243028, 'f1': 0.472029399755002, 'number': 1255}, \
-                # 'overall_precision': 0.6113427856547122, 'overall_recall': 0.5991009399264405, 'overall_f1': 0.6051599587203303, 'overall_accuracy': 0.8741352105838087}
 
-
-                # avg_val_loss = val_loss / num_val_batches
-                # avg_test_loss = test_loss / num_test_batches
                 if print_log: 
                     print("-----------------------------------------------------------")
                     print("strategy:", current_strategy)
                     print("iter:", iter)
                     print("epoch:", epoch)
-                    # print(f"Validation Loss: {avg_val_loss:.4f}")
-                    # print(f"F1_overall: {metric_result['overall_f1']:.4f}")
-                    # print(f"F1_AGENT: {metric_result['AGENT']['f1']:.4f}")
-                    # print(f"F1_TARGET: {metric_result['TARGET']['f1']:.4f}")
 
-                    # print(f"Test Loss: {avg_test_loss:.4f}")
                     print(f"F1_overall: {test_metric_result['overall_f1']:.4f}")
                     print(f"F1_AGENT: {test_metric_result['AGENT']['f1']:.4f}")
                     print(f"F1_TARGET: {test_metric_result['TARGET']['f1']:.4f}")

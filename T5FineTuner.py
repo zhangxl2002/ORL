@@ -14,14 +14,12 @@ class T5FineTuner():
         self.hparam = hparam
         # self.model = T5ForConditionalGeneration.from_pretrained(
         #     hparam.model_name_or_path)
-        self.model = T5ForConditionalGeneration.from_pretrained(
-            "/mnt/workspace/ORL/saved_models_copy/strategy_FULL/model_F1_0.66977_epoch_11")
+        # self.model = T5ForConditionalGeneration.from_pretrained(
+        #     "/mnt/workspace/ORL/saved_models_copy/strategy_FULL/model_F1_0.66977_epoch_11")
         # self.model = T5ForConditionalGeneration.from_pretrained(
         #     "/mnt/workspace/ORL/saved_models_copy/strategy_BEAM/model_F1_0.67540_iter_11_epoch_6")
-        # self.model = T5ForConditionalGeneration.from_pretrained(
-        #     "/mnt/workspace/ORL/saved_models_copy/strategy_MARGIN/model_F1_0.67388_iter_11_epoch_8")
-        # self.model = T5ForConditionalGeneration.from_pretrained(
-        #     "/mnt/workspace/ORL/saved_models/strategy_RANDOM/model_F1_0.66129_iter_11_epoch_9")
+        self.model = T5ForConditionalGeneration.from_pretrained(
+            "/mnt/workspace/ORL/saved_models_copy/strategy_MARGIN/model_F1_0.67388_iter_11_epoch_8")
         self.tokenizer = AutoTokenizer.from_pretrained(
             hparam.model_name_or_path
         )
@@ -57,14 +55,7 @@ class T5FineTuner():
 
     def training_step(self, batch, batch_idx):
         loss = self._step(batch)
-
-        # tensorboard_logs = {"train_loss": loss}
-        # return {"loss": loss, "log": tensorboard_logs}
         return loss
-
-    def training_epoch_end(self, outputs):
-        avg_train_loss = torch.stack([x["loss"] for x in outputs]).mean()
-        tensorboard_logs = {"avg_train_loss": avg_train_loss}
 
     def validation_step(self, batch, batch_idx):
         with torch.no_grad():
@@ -72,8 +63,6 @@ class T5FineTuner():
         return loss
 
     def configure_optimizers(self):
-        "Prepare optimizer and schedule (linear warmup and decay)"
-
         model = self.model
         no_decay = ["bias", "LayerNorm.weight"]
         optimizer_grouped_parameters = [
@@ -167,11 +156,11 @@ class T5FineTunerWithAL(T5FineTuner):
             add_num = int(self.datapool.total_num * add_percentage)
             selected_idx = random.sample(range(len(self.datapool.unannotated_data)), add_num)
             # 展示得分高的 和得分低的数据
-            show_num = 10
-            print("--------------------show samples-----------------------")
-            for sample in range(show_num):
-                print("source:",self.tokenizer.decode(un_data[sample]["source_ids"], skip_special_tokens=True))
-                print("target:",self.tokenizer.decode(un_data[sample]["target_ids"], skip_special_tokens=True))
+            # show_num = 10
+            # print("--------------------show samples-----------------------")
+            # for sample in range(show_num):
+            #     print("source:",self.tokenizer.decode(un_data[sample]["source_ids"], skip_special_tokens=True))
+            #     print("target:",self.tokenizer.decode(un_data[sample]["target_ids"], skip_special_tokens=True))
             self.datapool.addAnnotatedData(selected_idx)
             return
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -180,22 +169,6 @@ class T5FineTunerWithAL(T5FineTuner):
         cnt = 0
 
         un_dataloader = DataLoader(un_data, batch_size=8, shuffle=False)
-        
-        # for i in range(len(un_data)):
-        #     outputs = model.model.generate(input_ids=un_data[i]["source_ids"],\
-        #                 attention_mask=un_data[i]["source_mask"],return_dict_in_generate=True,output_scores=True,max_length=100)
-        #     #output.scores是一个长度为输出的token数量的元组，元组中的每个元素为[batchsize,词表大小]的tensor
-        #     transition_scores = model.model.compute_transition_scores(
-        #         outputs.sequences, outputs.scores, normalize_logits=True
-        #     )
-
-        # TODO: 删除旧策略，新策略使用beam search找到得分最高的几个sequence
-
-        # TODO:number_beams调大一点
-        # 不同iter写死不同的epochnum
-        # 应该采用所有epoch中在验证集上表现最较好的一个来进行主动学习
-        # 保存断点
-        # 是否数据集本身存在问题？
             
         #output.scores是一个长度为输出的token数量的元组，元组中的每个元素为[batchsize*num_return_sequences,词表大小]的tensor
         if add_percentage > 0:
@@ -206,7 +179,7 @@ class T5FineTunerWithAL(T5FineTuner):
                 idx = 0
                 for i, batch in enumerate(un_dataloader):
                     batch = {key: value.to(device) for key, value in batch.items()} 
-                    outputs = model.model.generate(
+                    outputs = self.model.generate(
                         input_ids=batch["source_ids"],
                         attention_mask=batch["source_mask"],
                         num_beams=number_beams,
@@ -216,7 +189,7 @@ class T5FineTunerWithAL(T5FineTuner):
                         length_penalty=len_penalty,
                         max_length=500
                     )
-                    transition_scores = model.model.compute_transition_scores(
+                    transition_scores = self.model.compute_transition_scores(
                         outputs.sequences, outputs.scores, outputs.beam_indices, normalize_logits=True
                     )
                     # compute_transition_scores计算出来的transition_scores是一个[batchsize*num_return_sequences,输出的token数量]的tensor，相当于对于每个输出的token一个评分
@@ -244,7 +217,7 @@ class T5FineTunerWithAL(T5FineTuner):
                 idx = 0
                 for i, batch in enumerate(un_dataloader):
                     batch = {key: value.to(device) for key, value in batch.items()} 
-                    outputs = model.model.generate(
+                    outputs = self.model.generate(
                         input_ids=batch["source_ids"],
                         attention_mask=batch["source_mask"],
                         num_beams=number_beams,
@@ -254,7 +227,7 @@ class T5FineTunerWithAL(T5FineTuner):
                         length_penalty=len_penalty,
                         max_length=500
                     )
-                    transition_scores = model.model.compute_transition_scores(
+                    transition_scores = self.model.compute_transition_scores(
                         outputs.sequences, outputs.scores, outputs.beam_indices, normalize_logits=True
                     )
                     # compute_transition_scores计算出来的transition_scores是一个[batchsize*num_return_sequences,输出的token数量]的tensor，相当于对于每个输出的token一个评分
@@ -285,7 +258,7 @@ class T5FineTunerWithAL(T5FineTuner):
                     batch = {key: value.to(device) for key, value in batch.items()} 
                     input_ids = batch['source_ids']
                     attention_mask = batch['source_mask']
-                    outs = model.model.generate(input_ids=input_ids,
+                    outs = self.model.generate(input_ids=input_ids,
                                                 attention_mask=attention_mask)
                     dec = [tokenizer.decode(ids, skip_special_tokens=True,
                                             clean_up_tokenization_spaces=False).strip() for ids in outs]
